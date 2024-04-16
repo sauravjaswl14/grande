@@ -1,25 +1,25 @@
-'use client';
+// 'use client';
 
 import Image from 'next/image';
 
 function Keypoints() {
   return (
-    <div className='ml-20 flex space-x-10 items-center'>
+    <div className='flex items-center ml-20 space-x-10'>
       <div className='lg:w-[50%] flex flex-col space-y-5'>
-        <div className='flex space-x-5 items-center bg-white px-5 py-2 rounded-md shadow-xl hover:scale-110 transition ease-in-out duration-200'>
+        <div className='flex items-center px-5 py-2 space-x-5 transition duration-200 ease-in-out bg-white rounded-md shadow-xl hover:scale-110'>
           <Image src='/img/point.png' width={35} height={35} alt='' />
           <p className='text-[#184861]'>
             A Rooftop Helipad provides for efficient and quick patient rescue.
           </p>
         </div>
-        <div className='flex space-x-5 items-center bg-white px-5 py-2 rounded-md shadow-xl hover:scale-110 transition ease-in-out duration-200'>
+        <div className='flex items-center px-5 py-2 space-x-5 transition duration-200 ease-in-out bg-white rounded-md shadow-xl hover:scale-110'>
           <Image src='/img/point.png' width={35} height={35} alt='' />
           <p className='text-[#184861]'>
             GIH is specially designed for wheelchair accessibility so navigation
             is easy and nothing is out of reach for our wheelchair bound guests.
           </p>
         </div>
-        <div className='flex space-x-5 items-center bg-white px-5 py-2 rounded-md shadow-xl hover:scale-110 transition ease-in-out duration-200'>
+        <div className='flex items-center px-5 py-2 space-x-5 transition duration-200 ease-in-out bg-white rounded-md shadow-xl hover:scale-110'>
           <Image src='/img/point.png' width={35} height={35} alt='' />
           <p className='text-[#184861]'>
             Fire Fighting System which includes central sprinkler system, fire
@@ -27,7 +27,7 @@ function Keypoints() {
             monitoring system where a fire has ignited.
           </p>
         </div>
-        <div className='flex space-x-5 items-center bg-white px-5 py-2 rounded-md shadow-xl hover:scale-110 transition ease-in-out duration-200'>
+        <div className='flex items-center px-5 py-2 space-x-5 transition duration-200 ease-in-out bg-white rounded-md shadow-xl hover:scale-110'>
           <Image src='/img/point.png' width={35} height={35} alt='' />
           <p className='text-[#184861]'>
             Earthquake Resistance for up to 8 Richter Scale Two 1250 KV
@@ -35,7 +35,7 @@ function Keypoints() {
             System 100 % back up
           </p>
         </div>
-        <div className='flex space-x-5 items-center bg-white px-5 py-2 rounded-md shadow-xl hover:scale-110 transition ease-in-out duration-200'>
+        <div className='flex items-center px-5 py-2 space-x-5 transition duration-200 ease-in-out bg-white rounded-md shadow-xl hover:scale-110'>
           <Image src='/img/point.png' width={35} height={35} alt='' />
           <p className='text-[#184861]'>
             CSSD (Central Sterile Supplies Department) The sterilization system
@@ -44,36 +44,36 @@ function Keypoints() {
             dressing and other sterile items used in patient care.
           </p>
         </div>
-        <div className='flex space-x-5 items-center bg-white px-5 py-2 rounded-md shadow-xl hover:scale-110 transition ease-in-out duration-200'>
+        <div className='flex items-center px-5 py-2 space-x-5 transition duration-200 ease-in-out bg-white rounded-md shadow-xl hover:scale-110'>
           <Image src='/img/point.png' width={35} height={35} alt='' />
           <p className='text-[#184861]'>
             Reverse Osmosis Water Purification System.
           </p>
         </div>
-        <div className='flex space-x-5 items-center bg-white px-5 py-2 rounded-md shadow-xl hover:scale-110 transition ease-in-out duration-200'>
+        <div className='flex items-center px-5 py-2 space-x-5 transition duration-200 ease-in-out bg-white rounded-md shadow-xl hover:scale-110'>
           <Image src='/img/point.png' width={35} height={35} alt='' />
           <p className='text-[#184861]'>
             Complete Waste Management and Disposal System.
           </p>
         </div>
-        <div className='flex space-x-5 items-center bg-white px-5 py-2 rounded-md shadow-xl hover:scale-110 transition ease-in-out duration-200'>
+        <div className='flex items-center px-5 py-2 space-x-5 transition duration-200 ease-in-out bg-white rounded-md shadow-xl hover:scale-110'>
           <Image src='/img/point.png' width={35} height={35} alt='' />
           <p className='text-[#184861]'>
             The Wellness Center– to help promote general health and in early
             disease detection and early intervention.
           </p>
         </div>
-        <div className='flex space-x-5 items-center bg-white px-5 py-2 rounded-md shadow-xl hover:scale-110 transition ease-in-out duration-200'>
+        <div className='flex items-center px-5 py-2 space-x-5 transition duration-200 ease-in-out bg-white rounded-md shadow-xl hover:scale-110'>
           <Image src='/img/point.png' width={35} height={35} alt='' />
           <p className='text-[#184861]'>
             Double Glazed Windows for sound and heat insulation.
           </p>
         </div>
-        <div className='flex space-x-5 items-center bg-white px-5 py-2 rounded-md shadow-xl hover:scale-110 transition ease-in-out duration-200'>
+        <div className='flex items-center px-5 py-2 space-x-5 transition duration-200 ease-in-out bg-white rounded-md shadow-xl hover:scale-110'>
           <Image src='/img/point.png' width={35} height={35} alt='' />
           <p className='text-[#184861]'>Industrial Size Laundry</p>
         </div>
-        <div className='flex space-x-5 items-center bg-white px-5 py-2 rounded-md shadow-xl hover:scale-110 transition ease-in-out duration-200'>
+        <div className='flex items-center px-5 py-2 space-x-5 transition duration-200 ease-in-out bg-white rounded-md shadow-xl hover:scale-110'>
           <Image src='/img/point.png' width={35} height={35} alt='' />
           <p className='text-[#184861]'>
             High standard restaurant with hygienic food.
@@ -91,14 +91,14 @@ function Keypoints() {
           />
           <Image
             src='/img/images/2.jpg'
-            className='rounded-md -mt-10'
+            className='-mt-10 rounded-md'
             width={300}
             height={300}
           />
         </div>
         <Image
           src='/img/images/About-Us-640x426.jpg'
-          className='rounded-md -mt-10'
+          className='-mt-10 rounded-md'
           width={300}
           height={300}
         />
