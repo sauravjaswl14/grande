@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f0f7fd;
+  overflow-x: hidden;
+}
+
+.appointment {
+  background: url(../../public/img/appointment-bg.png);
+}
+
+.unique-service {
+  background: url(../../public/img/pattern-1.png);
+}
+
+.card {
+  clip-path: polygon(9.202% 0, 90.798% 0, 90.798% 0, 92.289% .11%, 93.705% .429%, 95.025% .939%, 96.231% 1.622%, 97.303% 2.463%, 98.223% 3.442%, 98.972% 4.543%, 99.531% 5.748%, 99.879% 7.041%, 100% 8.403%, 100% 69.468%, 100% 69.468%, 99.633% 73.178%, 98.616% 75.937%, 97.076% 77.918%, 95.14% 79.293%, 92.934% 80.235%, 90.585% 80.917%, 88.221% 81.511%, 85.967% 82.19%, 83.95% 83.128%, 82.298% 84.496%, 82.298% 84.496%, 81.047% 86.306%, 80.14% 88.282%, 79.405% 90.341%, 78.671% 92.399%, 77.767% 94.371%, 76.523% 96.173%, 74.767% 97.721%, 72.33% 98.931%, 69.039% 99.719%, 64.724% 100%, 9.202% 100%, 9.202% 100%, 7.711% 99.89%, 6.295% 99.571%, 4.975% 99.061%, 3.769% 98.378%, 2.697% 97.538%, 1.777% 96.558%, 1.028% 95.457%, .469% 94.252%, .121% 92.959%, 0 91.597%, 0 8.403%, 0 8.403%, .121% 7.041%, .469% 5.748%, 1.028% 4.543%, 1.777% 3.442%, 2.697% 2.463%, 3.769% 1.622%, 4.975% .939%, 6.295% .429%, 7.711% .11%, 9.202% 0);
+}
+
+.appointment-section {
+  width: 100%;
+  background-image: url(../../public/img/appointment-banner.jpg);
+}
+
+.specialities-section {
+  background-image: url(../../public/img/pattern-2.png);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+
+}
+
+.testimonials {
+  background: url(../../public/img/testimonials-banner.png);
+  background-position: center;
+  background-size: contain;
+  background-color: #f8f9fa;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background-color: black;
+  background-image: url(../../public/img/surgery.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* About page */
+
+.about-section-breaker {
+  background-image: url(../../public/img/about-banner.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
