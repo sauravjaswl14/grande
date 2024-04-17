@@ -2,7 +2,7 @@
 
 import About from "@/components/about/About"
 import Department from "@/components/about/Department"
-import Keypoints from "@/components/about/keypoints"
+import Keypoints from "@/components/about/Keypoints"
 import SectionBreaker from "@/components/about/Sectionbreaker"
 import Tab from "@/components/about/Tab"
 import Footer from "@/components/Footer"
