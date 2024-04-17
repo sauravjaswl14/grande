@@ -16,7 +16,7 @@ const Hero = () => {
       <Carousel autoplay>
         <div>
           <Image
-            src='/img/images/Grande-@-Home-scaled.jpg'
+            src='/img/images/GIH-service-website-04.jpg'
             width={1920}
             height={460}
             style={contentStyle}
@@ -32,7 +32,7 @@ const Hero = () => {
         </div>
         <div>
           <Image
-            src='/img/images/GIH-service-scaled.jpg'
+            src='/img/images/GIH-service-website-03.jpg'
             width={1920}
             height={460}
             style={contentStyle}
@@ -40,7 +40,7 @@ const Hero = () => {
         </div>
         <div>
           <Image
-            src='/img/images/Heli-Resque-scaled.jpg'
+            src='/img/images/GIH-service-website-02.jpg'
             width={1920}
             height={460}
             style={contentStyle}
@@ -48,7 +48,7 @@ const Hero = () => {
         </div>
         <div>
           <Image
-            src='/img/images/Award-with-Acreedited-Home-Page-01-1.jpg'
+            src='/img/images/Award-with-Acreedited.jpg'
             width={1920}
             height={460}
             style={contentStyle}
