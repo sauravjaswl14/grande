@@ -43,7 +43,7 @@ function AppointmentSection() {
           </h2>
 
           <p className='text-[36px] font-semibold max-w-xl'>
-            Just Make an Appointment and You're Done!
+            Just Make an Appointment and You&apos;re Done!
           </p>
 
           <p className='text-[#666]'>

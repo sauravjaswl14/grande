@@ -50,7 +50,10 @@ function Department() {
           const { img, category, departmentName, departmentIcon, description } =
             department;
           return (
-            <div className='w-[736px] bg-white rounded-2xl shadow-xl p-5'>
+            <div
+              key={department.category}
+              className='w-[736px] bg-white rounded-2xl shadow-xl p-5'
+            >
               <div className='flex space-x-10 items-center'>
                 <Image
                   src={img}

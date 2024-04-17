@@ -38,7 +38,7 @@ function News() {
                       </div>
                     </div>
                     <p className='capitalize text-[18px] text-[#031b4e] font-semibold max-w-xs group-hover:text-[#238751] transition ease-in-out duration-200'>
-                      What's the reason so many older...
+                      What&apos;s the reason so many older...
                     </p>
                   </div>
 
@@ -102,7 +102,7 @@ function News() {
               />
               <div className='flex flex-col space-y-3'>
                 <h2 className='text-[#184861] max-w-xs hover:cursor-pointer group-hover:text-[#238751] transition ease-in-out duration-200'>
-                  Doctor's Failure to Diagnose a Medical Condition
+                  Doctor&apos;s Failure to Diagnose a Medical Condition
                 </h2>
                 <div className='flex space-x-3 items-center text-[13px] text-[#a7a7a7] group-hover:cursor-pointer'>
                   <p className=' '>February 28,2023</p>

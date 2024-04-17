@@ -90,8 +90,8 @@ function SpecificDepartment() {
                 Departments of Neurology
               </h2>
               <span class='text-[#1370b5]'>
-                ResoFus Alomar Treatment for Essential Tremor and Parkinson's
-                Disease
+                ResoFus Alomar Treatment for Essential Tremor and
+                Parkinson&apos;s Disease
               </span>
             </div>
             <p class='font-[400]'>
