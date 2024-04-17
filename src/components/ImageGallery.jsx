@@ -15,7 +15,7 @@ export function FeaturedImageGallery() {
       imgelink: '/img/images/About-Us-640x426.jpg',
     },
     {
-      imgelink: '/img/images/700003.jpg',
+      imgelink: '/img/images/2-1000010.jpg',
     },
     {
       imgelink: '/img/images/700004.jpg',
@@ -67,7 +67,7 @@ export function FeaturedImageGallery() {
           </div>
         </div>
         <div className='flex flex-col space-y-5'>
-          <Video src='../../videos/Video.mp4' />
+          {/* <Video src='../../videos/Video.mp4' /> */}
         </div>
       </div>
     </div>
