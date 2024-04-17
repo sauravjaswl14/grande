@@ -111,7 +111,7 @@ function NavListMenu() {
     ({ icon, title, link, description }, key) => (
       <Link href={link} key={key}>
         <MenuItem className='flex items-center gap-3 rounded-lg'>
-          <div className='flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2 '>
+          <div className='flex items-center justify-center rounded-b-lg !bg-blue-gray-50 p-2 '>
             {' '}
             {React.createElement(icon, {
               strokeWidth: 2,
@@ -150,7 +150,7 @@ function NavListMenu() {
         <MenuHandler>
           <Typography as='div' variant='small' className='font-medium'>
             <ListItem
-              className='flex items-center gap-2 py-2 pr-1 font-medium text-gray-900'
+              className='flex items-center xl:gap-2 py-2 pr-1 font-medium text-gray-900'
               selected={isOverviewMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -186,7 +186,7 @@ function NavListMenu() {
         <MenuHandler>
           <Typography as='div' variant='small' className='font-medium'>
             <ListItem
-              className='flex items-center gap-2 py-2 pr-4 font-medium text-gray-900'
+              className='flex items-center xl:gap-2 py-2 pr-4 font-medium text-gray-900'
               selected={isDepartmentsMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -214,7 +214,7 @@ function NavListMenu() {
       </Menu>
       <Link
         href='#'
-        className='flex text-[#111827] text-[14px] font-medium items-center gap-2  pr-4'
+        className='flex text-[#111827] text-[14px] font-medium items-center xl:gap-2  pr-4'
       >
         Health Packages
       </Link>
@@ -228,7 +228,7 @@ function NavListMenu() {
         <MenuHandler>
           <Typography as='div' variant='small' className='font-medium'>
             <ListItem
-              className='flex items-center gap-2 py-2 pr-4 font-medium text-gray-900'
+              className='flex items-center xl:gap-2 py-2 pr-4 font-medium text-gray-900'
               selected={isFacilitiesMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -256,13 +256,13 @@ function NavListMenu() {
       </Menu>
       <Link
         href='#'
-        className='flex text-[14px] text-[#111827]  font-medium items-center gap-2  pr-4'
+        className='flex text-[14px] text-[#111827]  font-medium items-center xl:gap-2  pr-4'
       >
         International Patient
       </Link>
       <Link
         href='#'
-        className='flex text-[14px] text-[#111827]  font-medium items-center gap-2  pr-4'
+        className='flex text-[14px] text-[#111827]  font-medium items-center xl:gap-2  pr-4'
       >
         Career
       </Link>
@@ -276,7 +276,7 @@ function NavListMenu() {
         <MenuHandler>
           <Typography as='div' variant='small' className='font-medium'>
             <ListItem
-              className='flex items-center gap-2 py-2 pr-4 font-medium text-gray-900'
+              className='flex items-center xl:gap-2 py-2 pr-4 font-medium text-gray-900'
               selected={setIsAcademicWingMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -314,7 +314,7 @@ function NavList() {
   return (
     <List className='mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row space-x-[2px] items-center lg:p-1'>
       <Link href='/'>
-        <ListItem className='flex items-center text-[#238751] gap-2 py-2 '>
+        <ListItem className='flex items-center text-[#238751] xl:gap-2 py-2 '>
           <Image src='/img/home.png' width={20} height={30} />
         </ListItem>
       </Link>
@@ -327,7 +327,7 @@ function NavList() {
         color='blue-gray'
         className='font-medium'
       >
-        <ListItem className='flex text-[#111827]  items-center gap-2 py-2 pr-4'>
+        <ListItem className='flex text-[#111827]  items-center xl:gap-2 py-2 pr-4'>
           Contact Us
         </ListItem>
       </Typography>
@@ -346,7 +346,7 @@ export function MegaMenuWithHover() {
   }, []);
 
   return (
-    <Navbar className='sticky top-0 shadow-xl min-w-screen px-10 py-5 z-50'>
+    <Navbar className='sticky top-0 shadow-xl min-w-screen text-[10px] xl:px-10 xl:py-5 z-50'>
       <div className='flex items-center justify-between text-blue-gray-900'>
         <Link href='/'>
           <Image src='/img/logo.png' width={140} height={52.16} />

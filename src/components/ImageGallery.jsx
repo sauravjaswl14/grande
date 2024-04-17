@@ -38,7 +38,7 @@ export function FeaturedImageGallery() {
 
           <Link
             href='#'
-            className='text-[#238751] font-semibold py-2 px-5 bg-white rounded-full hover:bg-[#238751] hover:text-white transition ease-in-out duration-200'
+            className='text-[#238751] font-semibold py-2 px-5 rounded-md bg-[#238751] hover:bg-[#184861] hover:text-white transition ease-in-out duration-200'
           >
             Explore Gallery
           </Link>
