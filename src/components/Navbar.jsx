@@ -56,7 +56,7 @@ const navListMenuItems = [
     title: 'Departments',
     description: 'Learn how we can help you achieve your goals.',
     icon: SunIcon,
-    link: '/department',
+    link: '/departments',
   },
   {
     title: 'Contact us',
