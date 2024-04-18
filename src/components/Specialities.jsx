@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import Tab from './Tab';
+import Image from 'next/image';
 
 function Speciality() {
   return (
-    <article className='w-[374px] pb-6 border-b-1 border-[##B7B7B7]'>
+    <article className='w-full lg:w-[374px] pb-6 border-b-1 border-[##B7B7B7]'>
       <div className='flex justify-between items-center'>
         {/*  */}
         <div className='flex space-x-5'>
@@ -85,10 +86,10 @@ function Speciality() {
 
 function SpecialitiesSection() {
   return (
-    <div className='border-r-2 px-5'>
+    <div className='lg:border-r-2 px-5'>
       <section className='flex flex-col'>
         {/* this is meant to be break into individual component i.e Speciality */}
-        <article className='w-[374px] py-2 border-b-2 border-[##B7B7B7]'>
+        <article className='w-full lg:w-[374px] py-2 border-b-2 border-[##B7B7B7]'>
           <div className='flex justify-between items-center'>
             {/*  */}
             <div className='flex space-x-5 items-center'>
@@ -167,7 +168,7 @@ function SpecialitiesSection() {
             </div>
           </div>
         </article>
-        <article className='w-[374px] py-2 border-b-2 border-[##B7B7B7]'>
+        <article className='w-full lg:w-[374px] py-2 border-b-2 border-[##B7B7B7]'>
           <div className='flex justify-between items-center'>
             {/*  */}
             <div className='flex space-x-5 items-center'>
@@ -268,7 +269,7 @@ function SpecialitiesSection() {
             </div>
           </div>
         </article>
-        <article className='w-[374px] py-2 border-b-2 border-[##B7B7B7]'>
+        <article className='w-full lg:w-[374px] py-2 border-b-2 border-[##B7B7B7]'>
           <div className='flex justify-between items-center'>
             {/*  */}
             <div className='flex space-x-5 items-center'>
@@ -408,7 +409,7 @@ function SpecialitiesSection() {
             </div>
           </div>
         </article>
-        <article className='w-[374px] py-2 border-b-2 border-[##B7B7B7]'>
+        <article className='w-full lg:w-[374px] py-2 border-b-2 border-[##B7B7B7]'>
           <div className='flex justify-between items-center'>
             {/*  */}
             <div className='flex space-x-5 items-center'>
@@ -471,7 +472,7 @@ function SpecialitiesSection() {
             </div>
           </div>
         </article>
-        <article className='w-[374px] py-2 border-b-2 border-[##B7B7B7]'>
+        <article className='w-full lg:w-[374px] py-2 border-b-2 border-[##B7B7B7]'>
           <div className='flex justify-between items-center'>
             {/*  */}
             <div className='flex space-x-5 items-center'>
@@ -569,7 +570,7 @@ function SpecialitiesSection() {
             </div>
           </div>
         </article>
-        <article className='w-[374px] py-2 border-b-2 border-[##B7B7B7]'>
+        <article className='w-full lg:w-[374px] py-2 border-b-2 border-[##B7B7B7]'>
           <div className='flex justify-between items-center'>
             {/*  */}
             <div className='flex space-x-5 items-center'>
@@ -715,16 +716,16 @@ function SearchBy() {
     <section className='pl-5'>
       <div className='flex flex-col space-y-16'>
         <div className='flex flex-col space-y-5'>
-          <h2 className='text-[20px] font-semibold'>Search By</h2>
+          <h2 className='text-[20px] capitalize font-semibold'>Search By</h2>
           {/* buttons */}
-          <div className='flex space-x-5 items-center'>
-            <button className='px-6 py-2 flex justify-center items-center text-white font-medium bg-[#184861] rounded-full'>
+          <div className='flex space-x-1 lg:space-x-5 items-center'>
+            <button className='px-2 lg:px-6 py-2 flex justify-center items-center text-white font-medium bg-[#184861] rounded-full'>
               Ailments
             </button>
-            <button className='px-6 py-2 flex justify-center items-center text-[#58595b] border-2 border-[#58595b] rounded-full font-medium transition hover:text-white hover:bg-[#184861] duration-200 ease-in-out'>
+            <button className='px-2 lg:px-6 py-2 flex justify-center items-center text-[#58595b] border-2 border-[#58595b] rounded-full font-medium transition hover:text-white hover:bg-[#184861] duration-200 ease-in-out'>
               Treatments
             </button>
-            <button className='px-6 py-2 flex justify-center items-center text-[#58595b] border-2 border-[#58595b] rounded-full font-medium transition hover:text-white hover:bg-[#184861] duration-200 ease-in-out'>
+            <button className='px-2 lg:px-6 py-2 flex justify-center items-center text-[#58595b] border-2 border-[#58595b] rounded-full font-medium transition hover:text-white hover:bg-[#184861] duration-200 ease-in-out'>
               Technologies
             </button>
           </div>
@@ -759,24 +760,123 @@ function SearchBy() {
 
 function Specialities() {
   return (
-    <div className='mt-20'>
+    <div className=' m-2 lg:mt-20'>
       <section className=' bg-[#f6f6f6] '>
         {/* <Tab /> */}
-        <div className='p-20 text-[#58595b] flex space-x-10'>
+        <div className='p-8 lg:p-16 text-[#58595b] flex flex-col space-y-8 lg:space-y-0 lg:flex-row lg:justify-between'>
           {/*  */}
-          <div className='flex flex-col space-y-10'>
+          <div className='flex flex-col space-y-5'>
             <div className='w-44 flex shadow-xl justify-center items-center py-2 px-5 bg-white rounded-full'>
               <h1 className='text-[20px] font-semibold text-[#238751]'>
                 Specialities
               </h1>
             </div>
 
-            <p className='text-[38px] text-[#184861] font-semibold max-w-sm'>
-              An Ecosystem for Clinical Excellence
+            <p className='text base lg:text-[28px] text-[#184861] font-semibold '>
+              Explore our Centres of Clinical Excellence
             </p>
+
+            <div className='w-full grid gap-6 grid-cols-3 lg:grid-cols-4'>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+                <Image
+                  src='/img/specialities/cardiology.png'
+                  width={42}
+                  height={42}
+                />
+                <p className='capitalize font-semibold'>Cardiology</p>
+              </div>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+                <Image
+                  src='/img/specialities/neurology.png'
+                  width={42}
+                  height={42}
+                />
+                <p className='capitalize font-semibold'>Neurology</p>
+              </div>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+                <Image
+                  src='/img/specialities/gastroenterology.png'
+                  width={42}
+                  height={42}
+                />
+                <p className='capitalize font-semibold'>gastroenterology</p>
+              </div>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+                <Image
+                  src='/img/specialities/bone.png'
+                  width={42}
+                  height={42}
+                />
+                <p className='capitalize font-semibold'>Orthopaedic</p>
+              </div>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+                <Image
+                  src='/img/specialities/oncology.png'
+                  width={42}
+                  height={42}
+                />
+                <p className='capitalize font-semibold'>oncology</p>
+              </div>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+                <Image
+                  src='/img/specialities/gynecology.png'
+                  width={42}
+                  height={42}
+                />
+                <p className='capitalize font-semibold'>gynecology</p>
+              </div>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+                <Image
+                  src='/img/specialities/dermatology.png'
+                  width={42}
+                  height={42}
+                />
+                <p className='capitalize font-semibold'>dermatology</p>
+              </div>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+                <Image
+                  src='/img/specialities/ophthalmology.png'
+                  width={42}
+                  height={42}
+                />
+                <p className='capitalize font-semibold'>ophthalmology</p>
+              </div>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+                <Image
+                  src='/img/specialities/pediatrics.png'
+                  width={42}
+                  height={42}
+                />
+                <p className='capitalize font-semibold'>pediatrics</p>
+              </div>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+                <Image
+                  src='/img/specialities/endocrinology.png'
+                  width={42}
+                  height={42}
+                />
+                <p className='capitalize font-semibold'>endocrinology</p>
+              </div>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+                <Image
+                  src='/img/specialities/urology.png'
+                  width={42}
+                  height={42}
+                />
+                <p className='capitalize font-semibold'>Urology</p>
+              </div>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+                <Image
+                  src='/img/specialities/kidney.png'
+                  width={42}
+                  height={42}
+                />
+                <p className='capitalize font-semibold'>Nephrology</p>
+              </div>
+            </div>
           </div>
           {/*  */}
-          <SpecialitiesSection />
+          {/* <SpecialitiesSection /> */}
           {/*  */}
           <SearchBy />
         </div>

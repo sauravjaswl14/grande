@@ -1,9 +1,9 @@
 function AdvertiseSectionBreaker() {
   return (
-    <div className='my-10'>
-      <div className='min-w-screen h-[500px] flex'>
+    <div className='hidden lg:block my-10'>
+      <div className='min-w-screen h-[500px] flex flex-col lg:flex-row'>
         {/*  */}
-        <div className='flex justify-center items-center flex-1 p-10 bg-[#184861]'>
+        <div className='flex  justify-center items-center flex-1 p-10 bg-[#184861]'>
           <div className='flex flex-col space-y-8 items-center'>
             <div className='w-20 h-20 rounded-full bg-[#e5e5e567] flex justify-center items-center'>
               <img src='/img/bestMonitorigSystem.png' className='w-10' alt='' />

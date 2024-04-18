@@ -35,7 +35,7 @@ function ParallaxSection() {
   return (
     <ParallaxBanner
       layers={[background, headline, gradientOverlay]}
-      className='aspect-[2/1] bg-gray-900'
+      className='hidden aspect-[2/1] bg-gray-900 lg:block'
     />
   );
 }

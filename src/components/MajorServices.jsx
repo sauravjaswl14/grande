@@ -2,17 +2,17 @@ import Image from 'next/image';
 
 function MajorServices() {
   return (
-    <div className='mx-20 mt-20'>
-      <div className='flex flex-col space-y-16 items-center'>
-        <div className='flex flex-col space-y-4 items-center'>
+    <div className='m-5 lg:mx-20 my-20'>
+      <div className='flex flex-col space-y-16 md:items-center'>
+        <div className='flex flex-col space-y-4 md:items-center'>
           <div className='w-44 py-2 px-5 bg-white rounded-full text-[#238751] font-semibold flex justify-center items-center'>
             Our Services
           </div>
-          <h2 className='text-[24px] font-semibold'>
+          <h2 className='text-[18px] lg:text-[24px] font-semibold'>
             We Provide Various Directions
           </h2>
         </div>
-        <div className='grid gap-6 grid-cols-4'>
+        <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
           {/*  */}
           <div className='group relative'>
             <div className=' card h-[346px] bg-white p-10 rounded-2xl group-hover:cursor-pointer '>
@@ -24,7 +24,7 @@ function MajorServices() {
                   alt=''
                 />
                 <h2 className='text-xl font-semibold'>Grande @ Home</h2>
-                <p className='max-w-[240px] pr-8 text-xs'>
+                <p className='max-w-[240px] lg:pr-8 text-xs'>
                   Grande @ home is offering specialized home care services. Our
                   skilled medical team aims to deliver the best possible care to
                   patients at their home, thus eliminating their need to travel
@@ -53,7 +53,7 @@ function MajorServices() {
                   alt=''
                 />
                 <h2 className='text-xl font-semibold'>Tele Consultation</h2>
-                <p className='max-w-[240px] pr-8 text-xs'>
+                <p className='max-w-[240px] lg:pr-8 text-xs'>
                   Tele Consultation at Grande International Hospital allows the
                   patient who reside outside the valley to stay in touch with
                   their doctors. This service also helps patient who are unable
@@ -73,7 +73,7 @@ function MajorServices() {
           </div>
           {/*  */}
           <div className='group relative'>
-            <div className=' card h-[346px] bg-white p-6 *:rounded-2xl group-hover:cursor-pointer '>
+            <div className=' card h-[346px] bg-white p-10 rounded-2xl group-hover:cursor-pointer '>
               {/*  */}
               <div className=' flex flex-col space-y-3'>
                 <img
@@ -113,7 +113,7 @@ function MajorServices() {
                   alt=''
                 />
                 <h2 className='text-xl font-semibold'>Wards and Rooms</h2>
-                <p className='max-w-[240px] pr-8 text-xs'>
+                <p className='max-w-[240px] lg:pr-8 text-xs'>
                   Grande International Hospital wards and rooms are designed in
                   such a way that it meets its all basic requirement for every
                   patient admitted in the hospital.

@@ -95,16 +95,14 @@ function Tab() {
     }
   }
   return (
-    <nav className='w-full flex justify-center'>
-      <div className='flex h-[80px] rounded-xl bg-[#fff] shadow-xl'>
+    <nav className='my-10 w-full hidden lg:flex lg:justify-center'>
+      <div className='flex space-x-5 items-center'>
         {/*  */}
         <div
-          onClick={() => activeTab('bookAppointment')}
-          className={`flex justify-center items-center py-[10px] px-[25px] rounded-l-xl hover:cursor-pointer ${
-            isActive.bookAppointment ? 'bg-[#e5e5e5]' : ''
-          } `}
+          // onClick={() => activeTab('bookAppointment')}
+          className={`w-[178px] h-[146px] bg-white hover:-translate-y-5 hover:border-b-4 hover:border-[#184861] transition duration-200 ease-in-out rounded-lg shadow-xl flex justify-center items-center py-[10px] px-[25px] rounded-l-xl hover:cursor-pointer`}
         >
-          <div className='flex space-x-5 items-center'>
+          <div className='flex flex-col space-y-5 items-center'>
             <Image src='/img/book-appointment.png' width={40} height={40} />
 
             <p className='text-[#184861] font-semibold text-[13px]'>
@@ -114,12 +112,10 @@ function Tab() {
         </div>
         {/*  */}
         <div
-          onClick={() => activeTab('findADoctor')}
-          className={`flex justify-center items-center py-[10px] px-[25px]  hover:cursor-pointer ${
-            isActive.findADoctor ? 'bg-[#e5e5e5]' : ''
-          } `}
+          // onClick={() => activeTab('findADoctor')}
+          className={`w-[178px] h-[146px] bg-white hover:-translate-y-5 hover:border-b-4 hover:border-[#184861] transition duration-200 ease-in-out rounded-lg shadow-xl flex justify-center items-center py-[10px] px-[25px]  hover:cursor-pointer`}
         >
-          <div className='flex space-x-5 items-center'>
+          <div className='flex flex-col space-y-5 items-center'>
             <Image src='/img/findADoctor.png' width={40} height={40} />
 
             <p className='text-[#184861] font-bold text-[13px]'>
@@ -129,12 +125,10 @@ function Tab() {
         </div>
         {/*  */}
         <div
-          onClick={() => activeTab('emergency')}
-          className={`flex justify-center items-center py-[10px] px-[25px]  hover:cursor-pointer ${
-            isActive.emergency ? 'bg-[#e5e5e5]' : ''
-          } `}
+          // onClick={() => activeTab('emergency')}
+          className={`w-[178px] h-[146px] bg-white hover:-translate-y-5 hover:border-b-4 hover:border-[#184861] transition duration-200 ease-in-out rounded-lg shadow-xl flex justify-center items-center py-[10px] px-[25px]  hover:cursor-pointer `}
         >
-          <div className='flex space-x-5 items-center'>
+          <div className='flex flex-col space-y-5 items-center'>
             <Image src='/img/emergency-room.png' width={40} height={40} />
 
             <p className='text-[#184861] font-bold text-[13px]'>Emergency</p>
@@ -142,27 +136,23 @@ function Tab() {
         </div>
         {/*  */}
         <div
-          onClick={() => activeTab('virtualConsultation')}
-          className={`flex justify-center items-center py-[10px] px-[25px]  hover:cursor-pointer ${
-            isActive.virtualConsultation ? 'bg-[#e5e5e5]' : ''
-          } `}
+          // onClick={() => activeTab('virtualConsultation')}
+          className={`w-[178px] h-[146px] bg-white hover:-translate-y-5 hover:border-b-4 hover:border-[#184861] transition duration-200 ease-in-out rounded-lg shadow-xl flex justify-center items-center py-[10px] px-[25px]  hover:cursor-pointer  `}
         >
-          <div className='flex space-x-5 items-center'>
+          <div className='flex flex-col space-y-5 items-center'>
             <Image src='/img/medical-checkup.png' width={40} height={40} />
 
-            <p className='capitalize text-[#184861]  font-bold text-[13px]'>
+            <p className='capitalize text-[#184861] text-center font-bold text-[13px]'>
               Book a virtual consultation
             </p>
           </div>
         </div>
         {/*  */}
         <div
-          onClick={() => activeTab('grandeAtHome')}
-          className={`flex justify-center items-center py-[10px] px-[25px]  hover:cursor-pointer ${
-            isActive.grandeAtHome ? 'bg-[#e5e5e5]' : ''
-          } `}
+          // onClick={() => activeTab('grandeAtHome')}
+          className={`w-[178px] h-[146px] bg-white hover:-translate-y-5 hover:border-b-4 hover:border-[#184861] transition duration-200 ease-in-out rounded-lg shadow-xl flex justify-center items-center py-[10px] px-[25px]  hover:cursor-pointer  `}
         >
-          <div className='flex space-x-5 items-center'>
+          <div className='flex flex-col space-y-5 items-center'>
             <Image src='/img/hospitalAthome.png' width={40} height={40} />
 
             <p className='capitalize text-[#184861]  font-bold text-[13px]'>
@@ -172,12 +162,10 @@ function Tab() {
         </div>
         {/*  */}
         <div
-          onClick={() => activeTab('bookATest')}
-          className={`flex justify-center items-center py-[10px] px-[25px] rounded-r-xl hover:cursor-pointer ${
-            isActive.bookATest ? 'bg-[#e5e5e5]' : ''
-          } `}
+          // onClick={() => activeTab('bookATest')}
+          className={`w-[178px] h-[146px] bg-white hover:-translate-y-5 hover:border-b-4 hover:border-[#184861] transition duration-200 ease-in-out rounded-lg shadow-xl flex justify-center items-center py-[10px] px-[25px] rounded-r-xl hover:cursor-pointer `}
         >
-          <div className='flex space-x-5 items-center'>
+          <div className='flex flex-col space-y-5 items-center'>
             <Image src='/img/blood-test.png' width={40} height={40} />
 
             <p className=' text-[#184861]  font-bold text-[13px]'>

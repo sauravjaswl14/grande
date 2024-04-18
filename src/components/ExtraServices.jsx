@@ -1,9 +1,9 @@
 function ExtraServices() {
   return (
-    <div className='grid gap-6 grid-cols-3'>
+    <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
       {/*  */}
       <div className='group hover:-translate-y-5 hover:cursor-pointer transition ease-in-out duration-200'>
-        <div className='flex flex-col p-10 space-y-5 items-center group-hover:bg-white group-hover:rounded-md group-hover:border-b-4 group-hover:border-[#184861] transition-all ease-in-out duration-200'>
+        <div className='flex flex-col p-10 space-y-5 items-center  group-hover:bg-white group-hover:rounded-md lg:group-hover:border-b-4 lg:group-hover:border-[#184861] transition-all ease-in-out duration-200'>
           <div className='w-20 h-20 flex justify-center items-center rounded-full bg-white group-hover:rounded-md group-hover:bg-[#18476111] transition-all ease-in-out duration-200'>
             <img src='/img/doctor-icon.png' className='w-10' alt='' />
           </div>

@@ -3,19 +3,19 @@ import ExtraServices from './ExtraServices';
 
 function WhyChooseUs() {
   return (
-    <section className='p-20 flex flex-col space-y-20 items-center'>
+    <section className='p-5 pt-20 lg:p-20 flex flex-col space-y-20 items-center'>
       {/*  */}
       <div className='flex flex-col space-y-5 items-center'>
         <div className='w-[145px] flex justify-center items-center rounded-full py-2 bg-white text-[12px] text-[#238751] font-semibold uppercase'>
           Why choose us
         </div>
-        <h3 className='text-[48px] text-center text-[#181a17] font-semibold max-w-2xl'>
+        <h3 className='text-lg lg:text-[48px] lg:leading-snug text-center text-[#181a17] font-semibold max-w-2xl'>
           We are always open for your health services
         </h3>
       </div>
 
       {/*  */}
-      <div className='flex space-x-10'>
+      <div className='flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-10'>
         {/*  */}
         <div className='group relative'>
           <div className=' card h-[346px] bg-white p-10 rounded-2xl group-hover:cursor-pointer '>

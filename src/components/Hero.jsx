@@ -56,9 +56,9 @@ const Hero = () => {
         </div>
       </Carousel>
 
-      <div className='absolute -bottom-8 w-screen flex justify-center'>
+      {/* <div className='absolute -bottom-8 w-screen flex justify-center'>
         <Tab />
-      </div>
+      </div> */}
     </div>
   );
 };

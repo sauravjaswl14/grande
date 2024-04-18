@@ -3,25 +3,25 @@ import Link from 'next/link';
 
 function News() {
   return (
-    <section className='p-20 flex flex-col space-y-10'>
+    <section className='p-6 lg:p-20 flex flex-col space-y-10'>
       <div className='flex flex-col space-y-5'>
-        <div className='w-56 flex justify-center items-center bg-white py-2 rounded-full text-[#238751] font-semibold'>
+        <div className='w-44 lg:w-56 flex justify-center items-center bg-white py-2 rounded-full text-[#238751] font-semibold'>
           News & Events
         </div>
-        <h2 className='text-[48px]'>Latest posts & articles</h2>
+        <h2 className='text-3xl lg:text-[48px]'>Latest posts & articles</h2>
       </div>
 
-      <div className='flex space-x-10 items-center'>
+      <div className='flex flex-col space-y-10 lg:space-y-0 lg:flex-row lg:space-x-10 lg:items-center'>
         {/*  */}
-        <div className='flex space-x-5'>
+        <div className='flex flex-col space-y-10 lg:space-y-0 lg:flex-row lg:space-x-5'>
           <div className='relative group'>
-            <div className='flex  shadow-blue-500'>
+            <div className='flex flex-col lg:flex-row  shadow-blue-500'>
               <img
                 src='/img/news.jpg'
-                className='rounded-2xl w-[250px] h-[280px] z-20'
+                className='w-full rounded-2xl lg:w-[250px] lg:h-[280px] z-20'
               />
-              <div className='bg-white shadow-lg rounded-r-2xl -ml-10 p-5 group-hover:cursor-pointer'>
-                <div className='px-10 flex flex-col space-y-5'>
+              <div className='bg-white shadow-lg rounded-r-2xl lg:-ml-10 p-5 group-hover:cursor-pointer'>
+                <div className='lg:px-10 flex flex-col space-y-5'>
                   <div className='flex flex-col space-y-5 pb-8 border-b-2'>
                     <div className='flex space-x-5 items-center'>
                       <div className='flex space-x-2 items-center'>
@@ -120,42 +120,42 @@ function News() {
           <div className='flex flex-col space-y-2 divide-y-2'>
             <Link
               href='#'
-              className='group flex space-x-10  py-1 items-center hover:space-x-12'
+              className=' group w-full flex justify-between lg:space-x-10  py-1 items-center hover:space-x-12'
             >
               <p className='group-hover:text-[#4d93e9]'>Lumbar Discectomy</p>
               <img src='/img/right-arrow-blue.png' className='w-3' alt='' />
             </Link>
             <Link
               href='#'
-              className='group flex space-x-10  py-1 items-center hover:space-x-12'
+              className='group w-full flex justify-between lg:space-x-10  py-2 items-center hover:space-x-12'
             >
               <p className='group-hover:text-[#4d93e9]'>Endoscopy</p>
               <img src='/img/right-arrow-blue.png' className='w-3' alt='' />
             </Link>
             <Link
               href='#'
-              className='group flex space-x-10  py-1 items-center hover:space-x-12'
+              className='group w-full flex justify-between lg:space-x-10  py-2 items-center hover:space-x-12'
             >
               <p className='group-hover:text-[#4d93e9]'>Elbow Arthroscopy</p>
               <img src='/img/right-arrow-blue.png' className='w-3' alt='' />
             </Link>
             <Link
               href='#'
-              className='group flex space-x-10  py-1 items-center hover:space-x-12'
+              className='group w-full flex justify-between lg:space-x-10  py-2 items-center hover:space-x-12'
             >
               <p className='group-hover:text-[#4d93e9]'>Colorectal</p>
               <img src='/img/right-arrow-blue.png' className='w-3' alt='' />
             </Link>
             <Link
               href='#'
-              className='group flex space-x-10  py-1 items-center hover:space-x-12'
+              className='group w-full flex justify-between lg:space-x-10  py-2 items-center hover:space-x-12'
             >
               <p className='group-hover:text-[#4d93e9]'>Knee Arthroscopy</p>
               <img src='/img/right-arrow-blue.png' className='w-3' alt='' />
             </Link>
             <Link
               href='#'
-              className='group flex space-x-10  py-1 items-center hover:space-x-12'
+              className='group w-full flex justify-between lg:space-x-10  py-2 items-center hover:space-x-12'
             >
               <p className='group-hover:text-[#4d93e9]'>Hemorrhoids</p>
               <img src='/img/right-arrow-blue.png' className='w-3' alt='' />

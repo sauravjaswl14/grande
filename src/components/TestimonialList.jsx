@@ -21,7 +21,7 @@ const TestimonialList = ({ records }) => {
   };
 
   return (
-    <div className='testimonials p-20 w-full bg-slate-100'>
+    <div className='hidden testimonials p-20 w-full bg-slate-100 lg:block'>
       {/* Carousel title */}
       <div className='flex flex-col space-y-5 items-center'>
         <div className='w-44 py-2 px-5 bg-white rounded-full font-semibold flex justify-center text-[#238751] shadow-xl items-center'>
@@ -31,7 +31,7 @@ const TestimonialList = ({ records }) => {
           What our patients say about us
         </h2>
       </div>
-      <div className='max-w-[1366px] mx-auto px- sm:px-6 text-center mt-10'>
+      <div className='lg:max-w-[1366px] mx-auto px- sm:px-6 text-center mt-10'>
         {/* Carousel component */}
         {/* The word itself says what each prop means, play with the values */}
         <Carousel

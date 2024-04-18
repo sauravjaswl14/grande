@@ -346,7 +346,7 @@ export function MegaMenuWithHover() {
   }, []);
 
   return (
-    <Navbar className='sticky top-0 shadow-xl min-w-screen text-[10px] xl:px-10 xl:py-5 z-50'>
+    <Navbar className='sticky top-0 shadow-xl w-screen text-[10px] xl:px-10 xl:py-5 z-50'>
       <div className='flex items-center justify-between text-blue-gray-900'>
         <Link href='/'>
           <Image src='/img/logo.png' width={140} height={52.16} />
@@ -379,5 +379,3 @@ export function MegaMenuWithHover() {
     </Navbar>
   );
 }
-
-function SubNav() {}

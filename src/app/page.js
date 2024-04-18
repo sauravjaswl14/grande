@@ -16,12 +16,14 @@ import Footer from "@/components/Footer";
 import TestimonialList from "@/components/TestimonialList";
 import records from "../data/testimonials"
 import AppointmentSection from "@/components/AppointmentSection";
+import Tab from "@/components/Tab";
 
 export default function Home() {
   return (
     <>
       <MegaMenuWithHover />
       <Hero />
+      <Tab />
       <UniqueServices />
       {/* <Appointment /> */}
       <MajorServices />
@@ -34,7 +36,7 @@ export default function Home() {
       <News />
       <AdvertiseSectionBreaker />
       <FeaturedImageGallery />
-      {/* <Testimonial /> */}
+
       <Footer />
     </>
   );

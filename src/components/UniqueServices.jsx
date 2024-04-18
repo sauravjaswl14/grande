@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 function UniqueServices() {
   return (
-    <div className='mt-20 w-full flex justify-center'>
-      <div className='flex space-x-10 items-center'>
+    <div className=' mt-8 w-full flex justify-center lg:mt-20'>
+      <div className=' flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-10 lg:items-center lg:p-0'>
         {/*  */}
         <div className='group w-[370px] rounded-xl shadow-lg bg-[#fff] hover:shadow-[#184861] hover:cursor-pointer hover:-translate-y-5 transition ease-in-out duration-200'>
           <div className='unique-service p-10 flex flex-col space-y-5'>

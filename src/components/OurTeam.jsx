@@ -68,15 +68,15 @@ function Doctor({ img, doctorName, department }) {
 
 function OurTeam() {
   return (
-    <section className='p-20'>
+    <section className='p-5 pt-10  lg:p-20'>
       <div className='flex flex-col space-y-10'>
         <div className='flex flex-col space-y-5'>
           <div className='flex justify-center items-center py-2 w-44 text-[#238751] font-semibold bg-white rounded-full'>
             Our Team
           </div>
 
-          <div className='flex justify-between'>
-            <h1 className='text-[48px]'>Our Specialist Doctors</h1>
+          <div className='flex justify-between items-center'>
+            <h1 className='text-lg lg:text-[48px]'>Our Specialist Doctors</h1>
             <div className='flex space-x-5'>
               <button className='w-[60px] h-[50px] p-5 border-2 border-[#184861] rounded-md flex justify-center items-center'>
                 <img
@@ -92,7 +92,7 @@ function OurTeam() {
           </div>
         </div>
 
-        <div className='flex space-x-10'>
+        <div className='flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-10'>
           {doctors.map((doctor) => {
             return (
               <div key={doctor}>
