@@ -96,12 +96,16 @@ function Keypoints() {
             height={300}
           />
         </div>
-        <Image
-          src='/img/images/About-Us-640x426.jpg'
-          className='-mt-10 rounded-md'
-          width={300}
-          height={300}
-        />
+        <div className='flex flex-col space-y-5'>
+          <Image
+            src='/img/images/About-Us-640x426.jpg'
+            className='-mt-10 rounded-md'
+            width={300}
+            height={300}
+          />
+
+          <Image src='/img/images/1-1.jpg' width={300} height={300} />
+        </div>
       </div>
     </div>
   );

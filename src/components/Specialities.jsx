@@ -713,12 +713,12 @@ function SearchBy() {
     'Z',
   ];
   return (
-    <section className='pl-5'>
+    <section className='pl-20'>
       <div className='flex flex-col space-y-16'>
         <div className='flex flex-col space-y-5'>
           <h2 className='text-[20px] capitalize font-semibold'>Search By</h2>
           {/* buttons */}
-          <div className='flex space-x-1 lg:space-x-5 items-center'>
+          <div className='flex space-x-1 lg:space-x-3 items-center'>
             <button className='px-2 lg:px-6 py-2 flex justify-center items-center text-white font-medium bg-[#184861] rounded-full'>
               Ailments
             </button>
@@ -730,7 +730,7 @@ function SearchBy() {
             </button>
           </div>
           {/*  */}
-          <div className='grid gap-5 grid-cols-6'>
+          <div className='grid gap-2 grid-cols-6'>
             {alphabets.map((alphabet, idx) => {
               return (
                 <div
@@ -763,7 +763,7 @@ function Specialities() {
     <div className=' m-2 lg:mt-20'>
       <section className=' bg-[#f6f6f6] '>
         {/* <Tab /> */}
-        <div className='p-8 lg:p-16 text-[#58595b] flex flex-col space-y-8 lg:space-y-0 lg:flex-row lg:justify-between'>
+        <div className='p-8 lg:p-10 text-[#58595b] flex flex-col space-y-8 lg:space-y-0 lg:flex-row lg:justify-between'>
           {/*  */}
           <div className='flex flex-col space-y-5'>
             <div className='w-44 flex shadow-xl justify-center items-center py-2 px-5 bg-white rounded-full'>
@@ -776,7 +776,7 @@ function Specialities() {
               Explore our Centres of Clinical Excellence
             </p>
 
-            <div className='w-full grid gap-6 grid-cols-3 lg:grid-cols-4'>
+            <div className='w-full grid gap-6 grid-cols-3 lg:grid-cols-5'>
               <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
                 <Image
                   src='/img/specialities/cardiology.png'
@@ -872,6 +872,22 @@ function Specialities() {
                   height={42}
                 />
                 <p className='capitalize font-semibold'>Nephrology</p>
+              </div>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+                <Image
+                  src='/img/specialities/pulmonology.png'
+                  width={42}
+                  height={42}
+                />
+                <p className='capitalize font-semibold'>pulmonology</p>
+              </div>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+                <Image
+                  src='/img/specialities/rheumatology.png'
+                  width={42}
+                  height={42}
+                />
+                <p className='capitalize font-semibold'>Rheumatology</p>
               </div>
             </div>
           </div>
