@@ -5,7 +5,7 @@ function Footer() {
         {/* <!--  --> */}
         <div className='flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-20'>
           <div className='w-[140px] h-[52.16px]'>
-            <img src='img/logo-white.png' className='w-full h-full' alt='' />
+            <img src='/img/logo-white.png' className='w-full h-full' alt='' />
           </div>
 
           <div className='flex flex-col space-y-5'>

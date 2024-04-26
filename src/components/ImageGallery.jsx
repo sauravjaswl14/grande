@@ -38,7 +38,7 @@ export function FeaturedImageGallery() {
 
           <Link
             href='#'
-            className='mr-8 w-44 flex justify-center items-center font-semibold py-2 px-5 rounded-md bg-[#238751] hover:bg-[#184861] text-white transition ease-in-out duration-200'
+            className=' w-44 flex justify-center items-center font-semibold py-2 px-5 rounded-md bg-[#238751] hover:bg-[#184861] text-white transition ease-in-out duration-200'
           >
             Explore Gallery
           </Link>

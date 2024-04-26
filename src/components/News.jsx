@@ -122,42 +122,54 @@ function News() {
               href='#'
               className=' group w-full flex justify-between lg:space-x-10  py-1 items-center hover:space-x-12'
             >
-              <p className='group-hover:text-[#4d93e9]'>Lumbar Discectomy</p>
+              <p className='text-[14px] group-hover:text-[#4d93e9]'>
+                Lumbar Discectomy
+              </p>
               <img src='/img/right-arrow-blue.png' className='w-3' alt='' />
             </Link>
             <Link
               href='#'
               className='group w-full flex justify-between lg:space-x-10  py-2 items-center hover:space-x-12'
             >
-              <p className='group-hover:text-[#4d93e9]'>Endoscopy</p>
+              <p className='text-[14px] group-hover:text-[#4d93e9]'>
+                Endoscopy
+              </p>
               <img src='/img/right-arrow-blue.png' className='w-3' alt='' />
             </Link>
             <Link
               href='#'
               className='group w-full flex justify-between lg:space-x-10  py-2 items-center hover:space-x-12'
             >
-              <p className='group-hover:text-[#4d93e9]'>Elbow Arthroscopy</p>
+              <p className='text-[14px] group-hover:text-[#4d93e9]'>
+                Elbow Arthroscopy
+              </p>
               <img src='/img/right-arrow-blue.png' className='w-3' alt='' />
             </Link>
             <Link
               href='#'
               className='group w-full flex justify-between lg:space-x-10  py-2 items-center hover:space-x-12'
             >
-              <p className='group-hover:text-[#4d93e9]'>Colorectal</p>
+              <p className='text-[14px] group-hover:text-[#4d93e9]'>
+                Colorectal
+              </p>
               <img src='/img/right-arrow-blue.png' className='w-3' alt='' />
             </Link>
             <Link
               href='#'
               className='group w-full flex justify-between lg:space-x-10  py-2 items-center hover:space-x-12'
             >
-              <p className='group-hover:text-[#4d93e9]'>Knee Arthroscopy</p>
+              <p className='text-[14px] group-hover:text-[#4d93e9]'>
+                Knee Arthroscopy
+              </p>
               <img src='/img/right-arrow-blue.png' className='w-3' alt='' />
             </Link>
             <Link
               href='#'
               className='group w-full flex justify-between lg:space-x-10  py-2 items-center hover:space-x-12'
             >
-              <p className='group-hover:text-[#4d93e9]'>Hemorrhoids</p>
+              <p className='text-[14px] group-hover:text-[#4d93e9]'>
+                Hemorrhoids
+              </p>
               <img src='/img/right-arrow-blue.png' className='w-3' alt='' />
             </Link>
           </div>

@@ -10,11 +10,31 @@ const contentStyle = {
   zIndex: '200',
 };
 
-const Hero = () => {
+let imgSrcData = [
+  '/img/images/GIH-service-website-04.jpg',
+  '/img/images/Ambulance-service-scaled.jpg',
+  '/img/images/GIH-service-website-03.jpg',
+  '/img/images/GIH-service-website-02.jpg',
+  '/img/images/Award-with-Acreedited.jpg',
+];
+
+const Hero = ({ imgSrcData }) => {
   return (
     <div className='relative'>
       <Carousel autoplay>
-        <div>
+        {imgSrcData.map((imgSrc) => {
+          return (
+            <div>
+              <Image
+                src={imgSrc}
+                width={1920}
+                height={460}
+                style={contentStyle}
+              />
+            </div>
+          );
+        })}
+        {/* <div>
           <Image
             src='/img/images/GIH-service-website-04.jpg'
             width={1920}
@@ -53,7 +73,7 @@ const Hero = () => {
             height={460}
             style={contentStyle}
           />
-        </div>
+        </div> */}
       </Carousel>
 
       {/* <div className='absolute -bottom-8 w-screen flex justify-center'>

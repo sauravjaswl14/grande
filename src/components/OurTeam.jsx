@@ -13,7 +13,7 @@ const doctors = [
   },
 ];
 
-function Doctor({ img, doctorName, department }) {
+export function Doctor({ img, doctorName, department, extra }) {
   return (
     <div className='group w-[350px] flex flex-col items-center transition ease-in-out duration-200'>
       <div className='relative w-full'>
@@ -54,10 +54,14 @@ function Doctor({ img, doctorName, department }) {
 
       <div className='w-[90%] -mt-10 bg-white z-30 p-5 rounded-md group-hover:cursor-pointer group-hover:-translate-y-2 transition ease-in-out duration-200'>
         <div className='flex flex-col space-y-3 items-center'>
-          <h3 className='capitalize text-[#18100f] text-[18px] text-center font-semibold'>
+          <h3 className='capitalize text-[#18100f] text-[20px] text-center font-bold'>
             {doctorName}
           </h3>
-          <p className='text-[#238751] text-center text-[14px] font-medium'>
+          {extra &&
+            extra.map((desc) => {
+              return <p className='text-[14px]'>{desc}</p>;
+            })}
+          <p className='text-[#238751] font-semibold text-center text-[14px]'>
             {department}
           </p>
         </div>

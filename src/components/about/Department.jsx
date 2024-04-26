@@ -10,7 +10,34 @@ let departmentData = [
     category: ' Cardiology',
     departmentName: 'Cardiac Surgery',
     departmentIcon: '/img/healthcare (1).png',
-    description: 'The medical professional doctors available in the hospital',
+    description:
+      'Cardiology as a team takes care of heart diseases and hypertension and has also performed hundreds of interventions when needed, for example – angiographies, angioplasties, pacemaker placement, etc.',
+  },
+  {
+    img: '/img/dental-care.jpg',
+    category: ' Gastroenterology ',
+    departmentName: 'Gastrointestinal tract',
+    departmentIcon: '/img/healthcare (1).png',
+    description:
+      'The Department of Gastroenterology at GIH is specialized in treating diseases and conditions related to Gastrointestinal tract such as stomach, small intestine, large intestine, liver, pancreatic and biliary tract.',
+  },
+  {
+    img: '/img/dental-care.jpg',
+    category: ' Orthopedics & Traumatology',
+    departmentName:
+      ' Spine Services: Center for Spinal Surgery and Rehabilitation (CSSR)',
+    departmentIcon: '/img/healthcare (1).png',
+    description:
+      'The back, which supports the body, is a crucial organ, and backaches are among the most frequent illnesses for which people visit the hospital. The patients are extensively evaluated by our trained team of spine surgeons, who then either treat them with medication, rehabilitation, or in the worst instance, surgery.',
+  },
+  {
+    img: '/img/dental-care.jpg',
+    category: 'Physiotherapy and Rehabilitation',
+    departmentName:
+      ' Musculoskeletal, Neurological, Sports and Spine injuries, Intensive care, Pulmonological and cardiac, Pediatrics and Women’s Health',
+    departmentIcon: '/img/healthcare (1).png',
+    description:
+      'The Department of Physiotherapy and Rehabilitation is well equipped with modern equipment and ambient space for patients. Qualified, skilled and experienced team of Physiotherapists provide Physiotherapy service in various field of rehabilitation (Musculoskeletal, Neurological, Sports and Spine injuries, Intensive care, Pulmonological and cardiac, Pediatrics and Women’s Health).',
   },
 ];
 
@@ -45,7 +72,7 @@ function Department() {
         </Link>
       </div>
 
-      <div className='flex flex-col space-y-5'>
+      <div className='h-[500px] flex flex-col space-y-5 overflow-y-auto no-scrollbar'>
         {departmentData.map((department) => {
           const { img, category, departmentName, departmentIcon, description } =
             department;
@@ -54,33 +81,22 @@ function Department() {
               key={department.category}
               className='w-[736px] bg-white rounded-2xl shadow-xl p-5'
             >
-              <div className='flex space-x-10 items-center'>
-                <Image
-                  src={img}
-                  className='rounded-2xl'
-                  width={300}
-                  height={400}
-                />
-
-                <div className='w-full flex flex-col space-y-20'>
-                  <div className='w-full flex justify-between'>
-                    <div className='flex flex-col space-y-3'>
-                      <div className='flex space-x-3 items-center'>
-                        <div className='w-2 h-2 bg-[#238751] rounded-full'></div>
-                        <p className='uppercase text-[#6e778c] text-xs'>
-                          {category}
-                        </p>
-                      </div>
-                      <p className='text-2xl font-semibold text-[#184861]'>
-                        {departmentName}
+              <div className='w-full flex flex-col space-y-8'>
+                <div className='w-full flex justify-between'>
+                  <div className='flex flex-col space-y-3'>
+                    <div className='flex space-x-3 items-center'>
+                      <div className='w-2 h-2 bg-[#238751] rounded-full'></div>
+                      <p className='uppercase text-[#6e778c] text-xs'>
+                        {category}
                       </p>
                     </div>
-
-                    <Image src={departmentIcon} width={64} height={64} />
+                    <p className='text-2xl font-semibold text-[#184861]'>
+                      {departmentName}
+                    </p>
                   </div>
-
-                  <div className='border-t-2 pt-3'>{description}</div>
                 </div>
+
+                <div className='border-t-2 pt-3'>{description}</div>
               </div>
             </div>
           );

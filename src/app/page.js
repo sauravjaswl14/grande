@@ -19,10 +19,19 @@ import AppointmentSection from "@/components/AppointmentSection";
 import Tab from "@/components/Tab";
 
 export default function Home() {
+
+  let imgSrcData = [
+    '/img/images/GIH-service-website-04.jpg',
+    '/img/images/Ambulance-service-scaled.jpg',
+    '/img/images/GIH-service-website-03.jpg',
+    '/img/images/GIH-service-website-02.jpg',
+    '/img/images/Award-with-Acreedited.jpg',
+  ];
+
   return (
     <>
       <MegaMenuWithHover />
-      <Hero />
+      <Hero imgSrcData={imgSrcData} />
       <Tab />
       <UniqueServices />
       {/* <Appointment /> */}

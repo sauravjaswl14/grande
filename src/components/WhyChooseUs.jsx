@@ -18,7 +18,7 @@ function WhyChooseUs() {
       <div className='flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-10'>
         {/*  */}
         <div className='group relative'>
-          <div className=' card h-[346px] bg-white p-10 rounded-2xl group-hover:cursor-pointer '>
+          <div className=' card  bg-white p-10 rounded-2xl group-hover:cursor-pointer '>
             <div className='flex flex-col space-y-20'>
               {/*  */}
               <div className='flex flex-col space-y-5'>
@@ -30,7 +30,7 @@ function WhyChooseUs() {
                   </p>
                 </div>
                 {/*  */}
-                <h2 className=' text-[#181a17] font-medium text-[26px] max-w-[238px]'>
+                <h2 className=' text-[#181a17] font-medium text-[18px] 2xl:text-[26px] max-w-[238px]'>
                   Compassionate & Expert Care
                 </h2>
               </div>
@@ -40,7 +40,7 @@ function WhyChooseUs() {
               <Image src='/img/expert-care.png' width={70} height={70.4} />
             </div>
           </div>
-          <div className='absolute bottom-0 right-0 w-14 h-14 rounded-full bg-white flex justify-center items-center'>
+          <div className='absolute bottom-0 lg:-bottom-1 2xl:bottom-0 right-0 lg:-right-3 2xl:right-0 w-14 h-14 rounded-full bg-white flex justify-center items-center'>
             <img
               src='/img/arrow-up-svgrepo-com.svg'
               className='w-4 rotate-45 group-hover:scale-150 transition ease-in-out duration-200'
@@ -50,7 +50,7 @@ function WhyChooseUs() {
         </div>
         {/*  */}
         <div className='group relative'>
-          <div className=' card h-[346px] bg-white p-10 rounded-2xl group-hover:cursor-pointer '>
+          <div className=' card  bg-white p-10 rounded-2xl group-hover:cursor-pointer '>
             <div className='flex flex-col space-y-20'>
               {/*  */}
               <div className='flex flex-col space-y-5'>
@@ -62,7 +62,7 @@ function WhyChooseUs() {
                   </p>
                 </div>
                 {/*  */}
-                <h2 className=' text-[#181a17] font-medium text-[26px] max-w-[238px]'>
+                <h2 className=' text-[#181a17] font-medium text-[18px] 2xl:text-[26px] max-w-[238px]'>
                   Multi Speciality Hospital
                 </h2>
               </div>
@@ -72,7 +72,7 @@ function WhyChooseUs() {
               <Image src='/img/healthcare.png' width={70} height={70.4} />
             </div>
           </div>
-          <div className='absolute bottom-0 right-0 w-14 h-14 rounded-full bg-white flex justify-center items-center'>
+          <div className='absolute bottom-0 lg:-bottom-1 2xl:bottom-0 right-0 lg:-right-3 2xl:right-0 w-14 h-14 rounded-full bg-white flex justify-center items-center'>
             <img
               src='/img/arrow-up-svgrepo-com.svg'
               className='w-4 rotate-45 group-hover:scale-150 transition ease-in-out duration-200'
@@ -82,7 +82,7 @@ function WhyChooseUs() {
         </div>
         {/*  */}
         <div className='group relative'>
-          <div className=' card h-[346px] bg-white p-10 rounded-2xl group-hover:cursor-pointer '>
+          <div className=' card  bg-white p-10 rounded-2xl group-hover:cursor-pointer '>
             <div className='flex flex-col space-y-20'>
               {/*  */}
               <div className='flex flex-col space-y-5'>
@@ -94,7 +94,7 @@ function WhyChooseUs() {
                   </p>
                 </div>
                 {/*  */}
-                <h2 className='capitalize text-[#181a17] font-medium text-[26px] max-w-[238px]'>
+                <h2 className='capitalize text-[#181a17] font-medium text-[18px] 2xl:text-[26px] max-w-[238px]'>
                   24 hours medical service
                 </h2>
               </div>
@@ -104,7 +104,7 @@ function WhyChooseUs() {
               <Image src='/img/doctor-icon.png' width={70} height={70.4} />
             </div>
           </div>
-          <div className='absolute bottom-0 right-0 w-14 h-14 rounded-full bg-white flex justify-center items-center'>
+          <div className='absolute bottom-0 lg:-bottom-1 2xl:bottom-0 right-0 lg:-right-3 2xl:right-0 w-14 h-14 rounded-full bg-white flex justify-center items-center'>
             <img
               src='/img/arrow-up-svgrepo-com.svg'
               className='w-4 rotate-45 group-hover:scale-150 transition ease-in-out duration-200'
@@ -114,7 +114,7 @@ function WhyChooseUs() {
         </div>
         {/*  */}
         <div className='group relative'>
-          <div className=' card h-[346px] bg-white p-10 rounded-2xl group-hover:cursor-pointer '>
+          <div className=' card  bg-white p-10 rounded-2xl group-hover:cursor-pointer '>
             <div className='flex flex-col space-y-20'>
               {/*  */}
               <div className='flex flex-col space-y-5'>
@@ -126,7 +126,7 @@ function WhyChooseUs() {
                   </p>
                 </div>
                 {/*  */}
-                <h2 className='capitalize text-[#181a17] font-medium text-[26px] max-w-[238px]'>
+                <h2 className='capitalize text-[#181a17] font-medium text-[18px] 2xl:text-[26px] max-w-[238px]'>
                   Personalized treatment plans
                 </h2>
               </div>
@@ -140,7 +140,7 @@ function WhyChooseUs() {
               />
             </div>
           </div>
-          <div className='absolute bottom-0 right-0 w-14 h-14 rounded-full bg-white flex justify-center items-center'>
+          <div className='absolute bottom-0 lg:-bottom-1 2xl:bottom-0 right-0 lg:-right-3 2xl:right-0 w-14 h-14 rounded-full bg-white flex justify-center items-center'>
             <img
               src='/img/arrow-up-svgrepo-com.svg'
               className='w-4 rotate-45 group-hover:scale-150 transition ease-in-out duration-200'

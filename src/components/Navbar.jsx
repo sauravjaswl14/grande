@@ -40,12 +40,7 @@ const navListMenuItems = [
     icon: SquaresPlusIcon,
     link: '/about',
   },
-  {
-    title: 'Mission and Vision',
-    description: 'Meet and learn about our dedication',
-    icon: UserGroupIcon,
-    link: '/about/missionVision',
-  },
+
   {
     title: 'Services',
     description: 'Find the perfect solution for your needs.',
@@ -97,6 +92,12 @@ const overviewMenuItems = [
     icon: SquaresPlusIcon,
     link: '/about',
   },
+  {
+    title: 'About us',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/about/messageFromChairman',
+  },
 ];
 
 function NavListMenu() {
@@ -115,7 +116,7 @@ function NavListMenu() {
             {' '}
             {React.createElement(icon, {
               strokeWidth: 2,
-              className: 'h-6 text-gray-900 w-6',
+              className: 'h-6 text-gray-900 text-[14px] whitespace-nowrap w-6',
             })}
           </div>
           <div>
@@ -150,7 +151,7 @@ function NavListMenu() {
         <MenuHandler>
           <Typography as='div' variant='small' className='font-medium'>
             <ListItem
-              className='flex items-center xl:gap-2 py-2 pr-1 font-medium text-gray-900'
+              className='flex items-center xl:gap-2 py-2 pr-1 font-medium text-gray-900 text-[14px] whitespace-nowrap'
               selected={isOverviewMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -186,7 +187,7 @@ function NavListMenu() {
         <MenuHandler>
           <Typography as='div' variant='small' className='font-medium'>
             <ListItem
-              className='flex items-center xl:gap-2 py-2 pr-4 font-medium text-gray-900'
+              className='flex items-center xl:gap-2 py-2 pr-4 font-medium text-gray-900 text-[14px] whitespace-nowrap'
               selected={isDepartmentsMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -228,7 +229,7 @@ function NavListMenu() {
         <MenuHandler>
           <Typography as='div' variant='small' className='font-medium'>
             <ListItem
-              className='flex items-center xl:gap-2 py-2 pr-4 font-medium text-gray-900'
+              className='flex items-center xl:gap-2 py-2 pr-4 font-medium text-gray-900 text-[14px] whitespace-nowrap'
               selected={isFacilitiesMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -276,7 +277,7 @@ function NavListMenu() {
         <MenuHandler>
           <Typography as='div' variant='small' className='font-medium'>
             <ListItem
-              className='flex items-center xl:gap-2 py-2 pr-4 font-medium text-gray-900'
+              className='flex items-center xl:gap-2 py-2 pr-4 font-medium text-gray-900 text-[14px] whitespace-nowrap'
               selected={setIsAcademicWingMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -355,7 +356,7 @@ export function MegaMenuWithHover() {
           <NavList />
         </div>
 
-        <div className='flex space-x-1 items-center'>
+        <div className='hidden 2xl:flex 2xl:space-x-1 xl:items-center'>
           <Image src='/img/nabh.png' width={50} height={60} className='' />
           <Image src='/img/hoty.png' width={60} height={60} className='' />
         </div>

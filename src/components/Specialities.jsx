@@ -713,7 +713,7 @@ function SearchBy() {
     'Z',
   ];
   return (
-    <section className='pl-20'>
+    <section className='lg:pl-20'>
       <div className='flex flex-col space-y-16'>
         <div className='flex flex-col space-y-5'>
           <h2 className='text-[20px] capitalize font-semibold'>Search By</h2>
