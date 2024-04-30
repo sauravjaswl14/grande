@@ -93,10 +93,136 @@ const overviewMenuItems = [
     link: '/about',
   },
   {
-    title: 'About us',
+    title: 'Board of Directors',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/about/bod',
+  },
+  {
+    title: 'management team',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/about/managementTeam',
+  },
+  {
+    title: 'message from chairman',
     description: 'Find the perfect solution for your needs.',
     icon: SquaresPlusIcon,
     link: '/about/messageFromChairman',
+  },
+  {
+    title: 'message from medical director',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/about/messageFromMedicalDirector',
+  },
+];
+
+const services = [
+  {
+    title: 'services at GIH',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/services',
+  },
+  {
+    title: 'Grande @ Home',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/services/grandeAtHome',
+  },
+  {
+    title: 'Tele-Consultation',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/services/teleConsultation',
+  },
+  {
+    title: 'Heli Rescue',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/services/heliRescue',
+  },
+  {
+    title: 'Wards and Rooms',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/services/wardsAndRooms',
+  },
+  {
+    title: 'Ambulance',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/services/ambulance',
+  },
+  {
+    title: 'Pharmacy',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/services/pharmacy',
+  },
+  {
+    title: 'Nursing',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/services/nursing',
+  },
+  {
+    title: 'PCR Info',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/services/pcrInfo',
+  },
+];
+
+const academicWing = [
+  {
+    title: 'academic programs',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/academic-wing/academicPrograms',
+  },
+  {
+    title: 'apply for clinical fellowship',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/academic-wing',
+  },
+  {
+    title: 'IRC(Institutional Review Committee)',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/academic-wing/IRC',
+  },
+  {
+    title: 'Our Fellows',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/academic-wing',
+  },
+  {
+    title: 'Grande Medical Journal(GMJ)',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/academic-wing/GMJ',
+  },
+  {
+    title: 'Grande Lectures',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/academic-wing/grandeLectures',
+  },
+  {
+    title: 'published articles',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/academic-wing',
+  },
+  {
+    title: 'academic wing contact',
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+    link: '/academic-wing',
   },
 ];
 
@@ -139,6 +265,108 @@ function NavListMenu() {
     )
   );
 
+  const overviewItems = overviewMenuItems.map(
+    ({ icon, title, link, description }, key) => {
+      return (
+        <Link href={link} key={key}>
+          <MenuItem className='flex items-center gap-3 rounded-lg'>
+            <div className='flex items-center justify-center rounded-b-lg !bg-blue-gray-50 p-2 '>
+              {' '}
+              {React.createElement(icon, {
+                strokeWidth: 2,
+                className:
+                  'h-6 text-gray-900 text-[14px] whitespace-nowrap w-6',
+              })}
+            </div>
+            <div>
+              <Typography
+                variant='h6'
+                color='blue-gray'
+                className='flex capitalize items-center text-sm font-bold'
+              >
+                {title}
+              </Typography>
+              <Typography
+                variant='paragraph'
+                className='text-xs !font-medium text-blue-gray-500'
+              >
+                {description}
+              </Typography>
+            </div>
+          </MenuItem>
+        </Link>
+      );
+    }
+  );
+
+  const servicesItems = services.map(
+    ({ icon, title, link, description }, key) => {
+      return (
+        <Link href={link} key={key}>
+          <MenuItem className='flex items-center gap-3 rounded-lg'>
+            <div className='flex items-center justify-center rounded-b-lg !bg-blue-gray-50 p-2 '>
+              {' '}
+              {React.createElement(icon, {
+                strokeWidth: 2,
+                className:
+                  'h-6 text-gray-900 text-[14px] whitespace-nowrap w-6',
+              })}
+            </div>
+            <div>
+              <Typography
+                variant='h6'
+                color='blue-gray'
+                className='flex items-center text-sm font-bold'
+              >
+                {title}
+              </Typography>
+              <Typography
+                variant='paragraph'
+                className='text-xs !font-medium text-blue-gray-500'
+              >
+                {description}
+              </Typography>
+            </div>
+          </MenuItem>
+        </Link>
+      );
+    }
+  );
+
+  const academicItems = academicWing.map(
+    ({ icon, title, link, description }, key) => {
+      return (
+        <Link href={link} key={key}>
+          <MenuItem className='flex items-center gap-3 rounded-lg'>
+            <div className='flex items-center justify-center rounded-b-lg !bg-blue-gray-50 p-2 '>
+              {' '}
+              {React.createElement(icon, {
+                strokeWidth: 2,
+                className:
+                  'h-6 text-gray-900 text-[14px] whitespace-nowrap w-6',
+              })}
+            </div>
+            <div>
+              <Typography
+                variant='h6'
+                color='blue-gray'
+                className='flex capitalize items-center text-sm font-bold'
+              >
+                {title}
+              </Typography>
+              <Typography
+                variant='paragraph'
+                className='text-xs !font-medium text-blue-gray-500'
+              >
+                {description}
+              </Typography>
+            </div>
+          </MenuItem>
+        </Link>
+      );
+    }
+  );
+
   return (
     <React.Fragment>
       <Menu
@@ -173,7 +401,7 @@ function NavListMenu() {
         </MenuHandler>
         <MenuList className='hidden bg-white border-2 mt-3 ml-8  w-screen rounded-xl lg:block'>
           <ul className='p-10 grid grid-cols-3 gap-6 gap-y-2 outline-none outline-0'>
-            {renderItems}
+            {overviewItems}
           </ul>
         </MenuList>
       </Menu>
@@ -251,7 +479,7 @@ function NavListMenu() {
         </MenuHandler>
         <MenuList className='hidden  bg-white border-2 mt-3 ml-8  w-screen rounded-xl lg:block'>
           <ul className='grid grid-cols-3 gap-y-2 outline-none outline-0'>
-            {renderItems}
+            {servicesItems}
           </ul>
         </MenuList>
       </Menu>
@@ -299,7 +527,7 @@ function NavListMenu() {
         </MenuHandler>
         <MenuList className='hidden  bg-white border-2 mt-3 ml-8  w-screen rounded-xl lg:block'>
           <ul className='grid grid-cols-3 gap-y-2 outline-none outline-0'>
-            {renderItems}
+            {academicItems}
           </ul>
         </MenuList>
       </Menu>
@@ -321,17 +549,13 @@ function NavList() {
       </Link>
 
       <NavListMenu />
-      <Typography
-        as='a'
-        href='#'
-        variant='small'
-        color='blue-gray'
-        className='font-medium'
+
+      <Link
+        href='/contact'
+        className='flex text-[#111827] text-[14px] font-medium items-center xl:gap-2 py-2 pr-4'
       >
-        <ListItem className='flex text-[#111827]  items-center xl:gap-2 py-2 pr-4'>
-          Contact Us
-        </ListItem>
-      </Typography>
+        Contact Us
+      </Link>
     </List>
   );
 }

@@ -17,6 +17,7 @@ import TestimonialList from "@/components/TestimonialList";
 import records from "../data/testimonials"
 import AppointmentSection from "@/components/AppointmentSection";
 import Tab from "@/components/Tab";
+import Image from "next/image";
 
 export default function Home() {
 
@@ -29,7 +30,10 @@ export default function Home() {
   ];
 
   return (
-    <>
+    <div className="reltaive">
+      <div className="fixed bottom-5 right-5 z-50">
+        <Image src="/img/consultation.png" className="z-50" width={80} height={80} alt="chatbot" />
+      </div>
       <MegaMenuWithHover />
       <Hero imgSrcData={imgSrcData} />
       <Tab />
@@ -47,6 +51,6 @@ export default function Home() {
       <FeaturedImageGallery />
 
       <Footer />
-    </>
+    </div>
   );
 }

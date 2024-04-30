@@ -1,4 +1,4 @@
-function SpecificDepartment() {
+function SpecificDepartmentSection() {
   return (
     <section class='py-16 lg:py-32'>
       {/* <!-- section container --> */}
@@ -81,7 +81,7 @@ function SpecificDepartment() {
         {/* <!-- Right --> */}
         <div class='max-w-[860px] text-[#777777]'>
           {/* <!-- Image --> */}
-          <img src='img/right.jpg' alt='' class='w-full' />
+          <img src='/img/right.jpg' alt='' class='w-full' />
           {/* <!-- Content --> */}
           <div class='flex flex-col gap-7 pt-5'>
             {/* <!-- Text --> */}
@@ -111,7 +111,7 @@ function SpecificDepartment() {
             {/* <!-- Image and text --> */}
             <div class='flex flex-col space-y-8 xl:flex-row xl:space-y-0 xl:space-x-8'>
               <img
-                src='img/img-text.jpg'
+                src='/img/img-text.jpg'
                 alt=''
                 class='w-[100%] xl:w-[50%] xl:h-[50%]'
               />
@@ -125,31 +125,31 @@ function SpecificDepartment() {
                 <ul class='mt-5 space-y-2 text-black'>
                   <li>
                     <span class='flex items-center gap-1'>
-                      <img src='img/checkmark.png' alt='' class='w-4 h-4' />
+                      <img src='/img/checkmark.png' alt='' class='w-4 h-4' />
                       Enhancing Your Vision sit ametcon sec tetur
                     </span>
                   </li>
                   <li>
                     <span class='flex items-center gap-1'>
-                      <img src='img/checkmark.png' alt='' class='w-4 h-4' />
+                      <img src='/img/checkmark.png' alt='' class='w-4 h-4' />
                       adipisicing eiusmod tempor tread depth sit tread
                     </span>
                   </li>
                   <li>
                     <span class='flex items-center gap-1'>
-                      <img src='img/checkmark.png' alt='' class='w-4 h-4' />
+                      <img src='/img/checkmark.png' alt='' class='w-4 h-4' />
                       eiusmod Your Vision sit ametcon sec tetur sec
                     </span>
                   </li>
                   <li>
                     <span class='flex items-center gap-1'>
-                      <img src='img/checkmark.png' alt='' class='w-4 h-4' />
+                      <img src='/img/checkmark.png' alt='' class='w-4 h-4' />
                       adipisicing eiusmod tempor tread depth sit
                     </span>
                   </li>
                   <li>
                     <span class='flex items-center gap-1'>
-                      <img src='img/checkmark.png' alt='' class='w-4 h-4' />
+                      <img src='/img/checkmark.png' alt='' class='w-4 h-4' />
                       tread Your Vision sit ametcon sec tetur
                     </span>
                   </li>
@@ -177,4 +177,4 @@ function SpecificDepartment() {
     </section>
   );
 }
-export default SpecificDepartment;
+export default SpecificDepartmentSection;

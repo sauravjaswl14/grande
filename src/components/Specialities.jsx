@@ -718,40 +718,28 @@ function SearchBy() {
         <div className='flex flex-col space-y-5'>
           <h2 className='text-[20px] capitalize font-semibold'>Search By</h2>
           {/* buttons */}
-          <div className='flex space-x-1 lg:space-x-3 items-center'>
-            <button className='px-2 lg:px-6 py-2 flex justify-center items-center text-white font-medium bg-[#184861] rounded-full'>
-              Ailments
-            </button>
-            <button className='px-2 lg:px-6 py-2 flex justify-center items-center text-[#58595b] border-2 border-[#58595b] rounded-full font-medium transition hover:text-white hover:bg-[#184861] duration-200 ease-in-out'>
-              Treatments
-            </button>
-            <button className='px-2 lg:px-6 py-2 flex justify-center items-center text-[#58595b] border-2 border-[#58595b] rounded-full font-medium transition hover:text-white hover:bg-[#184861] duration-200 ease-in-out'>
-              Technologies
-            </button>
+          <div className='p-5 w-full lg:w-[500px] bg-white rounded-full'>
+            <input
+              type='text'
+              className='w-full outline-none'
+              placeholder='Search diseases & conditions'
+            />
           </div>
+
+          <p>Find diseases & conditions by first letter</p>
           {/*  */}
           <div className='grid gap-2 grid-cols-6'>
             {alphabets.map((alphabet, idx) => {
               return (
                 <div
                   key={alphabet}
-                  className='w-[44px] h-[44px] flex justify-center items-center rounded-full bg-white p-2 shadow-xl uppercase text-[16px] hover:bg-[#184861] hover:text-white hover:cursor-pointer transition ease-in-out duration-200'
+                  className='w-[44px] h-[44px] lg:w-[64px] lg:h-[64px] flex justify-center items-center rounded-full bg-white p-2 shadow-xl uppercase text-[16px] hover:bg-[#184861] hover:text-white hover:cursor-pointer transition ease-in-out duration-200'
                 >
                   {alphabet}
                 </div>
               );
             })}
           </div>
-        </div>
-
-        <div className='flex space-x-5 items-center'>
-          <Link href='#' className='flex space-x-5 items-center'>
-            <p>View All Ailments</p>
-
-            <div className='w-[34px] h-[34px] rounded-full bg-[#238751] flex justify-center items-center '>
-              <img src='/img/right-arrow (1).png' className='w-8' alt='' />
-            </div>
-          </Link>
         </div>
       </div>
     </section>
@@ -761,9 +749,9 @@ function SearchBy() {
 function Specialities() {
   return (
     <div className=' m-2 lg:mt-20'>
-      <section className=' bg-[#f6f6f6] '>
+      <section className=' bg-[#f6f6f6] lg:h-[800px] '>
         {/* <Tab /> */}
-        <div className='p-8 lg:p-10 text-[#58595b] flex flex-col space-y-8 lg:space-y-0 lg:flex-row lg:justify-between'>
+        <div className='p-8 lg:p-10 text-[#58595b] flex flex-col space-y-8 lg:space-y-0 lg:flex-row lg:justify-between lg:items-center'>
           {/*  */}
           <div className='flex flex-col space-y-5'>
             <div className='w-44 flex shadow-xl justify-center items-center py-2 px-5 bg-white rounded-full'>
@@ -776,8 +764,8 @@ function Specialities() {
               Explore our Centres of Clinical Excellence
             </p>
 
-            <div className='w-full grid gap-6 grid-cols-3 lg:grid-cols-5'>
-              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+            <div className='w-full grid gap-6 grid-cols-2 lg:grid-cols-5'>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5  hover:-translate-y-2 hover:border-[#184861] transition ease-in-out duration-200 items-center'>
                 <Image
                   src='/img/specialities/cardiology.png'
                   width={42}
@@ -785,7 +773,7 @@ function Specialities() {
                 />
                 <p className='capitalize font-semibold'>Cardiology</p>
               </div>
-              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5  hover:-translate-y-2 hover:border-[#184861] transition ease-in-out duration-200 items-center'>
                 <Image
                   src='/img/specialities/neurology.png'
                   width={42}
@@ -793,7 +781,7 @@ function Specialities() {
                 />
                 <p className='capitalize font-semibold'>Neurology</p>
               </div>
-              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5  hover:-translate-y-2 hover:border-[#184861] transition ease-in-out duration-200 items-center'>
                 <Image
                   src='/img/specialities/gastroenterology.png'
                   width={42}
@@ -801,7 +789,7 @@ function Specialities() {
                 />
                 <p className='capitalize font-semibold'>gastroenterology</p>
               </div>
-              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5  hover:-translate-y-2 hover:border-[#184861] transition ease-in-out duration-200 items-center'>
                 <Image
                   src='/img/specialities/bone.png'
                   width={42}
@@ -809,7 +797,7 @@ function Specialities() {
                 />
                 <p className='capitalize font-semibold'>Orthopaedic</p>
               </div>
-              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5  hover:-translate-y-2 hover:border-[#184861] transition ease-in-out duration-200 items-center'>
                 <Image
                   src='/img/specialities/oncology.png'
                   width={42}
@@ -817,7 +805,7 @@ function Specialities() {
                 />
                 <p className='capitalize font-semibold'>oncology</p>
               </div>
-              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5  hover:-translate-y-2 hover:border-[#184861] transition ease-in-out duration-200 items-center'>
                 <Image
                   src='/img/specialities/gynecology.png'
                   width={42}
@@ -825,7 +813,7 @@ function Specialities() {
                 />
                 <p className='capitalize font-semibold'>gynecology</p>
               </div>
-              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5  hover:-translate-y-2 hover:border-[#184861] transition ease-in-out duration-200 items-center'>
                 <Image
                   src='/img/specialities/dermatology.png'
                   width={42}
@@ -833,7 +821,7 @@ function Specialities() {
                 />
                 <p className='capitalize font-semibold'>dermatology</p>
               </div>
-              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5  hover:-translate-y-2 hover:border-[#184861] transition ease-in-out duration-200 items-center'>
                 <Image
                   src='/img/specialities/ophthalmology.png'
                   width={42}
@@ -841,7 +829,7 @@ function Specialities() {
                 />
                 <p className='capitalize font-semibold'>ophthalmology</p>
               </div>
-              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5  hover:-translate-y-2 hover:border-[#184861] transition ease-in-out duration-200 items-center'>
                 <Image
                   src='/img/specialities/pediatrics.png'
                   width={42}
@@ -849,7 +837,7 @@ function Specialities() {
                 />
                 <p className='capitalize font-semibold'>pediatrics</p>
               </div>
-              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5  hover:-translate-y-2 hover:border-[#184861] transition ease-in-out duration-200 items-center'>
                 <Image
                   src='/img/specialities/endocrinology.png'
                   width={42}
@@ -857,7 +845,7 @@ function Specialities() {
                 />
                 <p className='capitalize font-semibold'>endocrinology</p>
               </div>
-              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5  hover:-translate-y-2 hover:border-[#184861] transition ease-in-out duration-200 items-center'>
                 <Image
                   src='/img/specialities/urology.png'
                   width={42}
@@ -865,7 +853,7 @@ function Specialities() {
                 />
                 <p className='capitalize font-semibold'>Urology</p>
               </div>
-              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5  hover:-translate-y-2 hover:border-[#184861] transition ease-in-out duration-200 items-center'>
                 <Image
                   src='/img/specialities/kidney.png'
                   width={42}
@@ -873,7 +861,7 @@ function Specialities() {
                 />
                 <p className='capitalize font-semibold'>Nephrology</p>
               </div>
-              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5  hover:-translate-y-2 hover:border-[#184861] transition ease-in-out duration-200 items-center'>
                 <Image
                   src='/img/specialities/pulmonology.png'
                   width={42}
@@ -881,7 +869,7 @@ function Specialities() {
                 />
                 <p className='capitalize font-semibold'>pulmonology</p>
               </div>
-              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5 items-center'>
+              <div className='bg-white p-5 rounded-lg shadow-lg flex flex-col space-y-5  hover:-translate-y-2 hover:border-[#184861] transition ease-in-out duration-200 items-center'>
                 <Image
                   src='/img/specialities/rheumatology.png'
                   width={42}

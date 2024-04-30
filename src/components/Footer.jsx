@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className='mt-20 bg-[#184861] text-white p-5 lg:py-10 lg:px-20'>
+    <footer className='z-30 mt-20 bg-[#184861] text-white p-5 lg:py-10 lg:px-20'>
       <div className='flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:justify-between'>
         {/* <!--  --> */}
         <div className='flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-20'>

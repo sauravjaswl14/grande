@@ -1,7 +1,7 @@
 function AppointmentSection() {
   return (
     <div className='bg-gray-100 appointment-section p-8 lg:p-20 flex justify-center items-center'>
-      <div className='flex flex-col-reverse space-y-5 lg:space-y-0 lg:flex-row lg:space-x-20 '>
+      <div className='flex flex-col-reverse space-y-5 lg:space-y-0 lg:flex-row lg:space-x-20 lg:items-center '>
         <div className='mt-12 lg:mt-0 w-full lg:w-[570px] bg-white shadow-xl py-20 px-10 rounded-lg'>
           <form className='flex flex-col space-y-5'>
             <input
@@ -53,44 +53,6 @@ function AppointmentSection() {
             </span>
             <span className='text-[18px] lg:text-[24px]'>+977-9801202550</span>
           </p>
-          <h3 className='text-[24px] lg:text-[36px] font-semibold text-[#238751]'>
-            Opening Hours
-          </h3>
-
-          <div className='flex flex-col space-y-4 divide-y-2'>
-            {/*  */}
-            <div className='w-full lg:w-[500px] text-[18px] text-[#777] py-3 flex justify-between'>
-              <div className='flex space-x-5 items-center'>
-                <img src='/img/clock-green.png' className='w-5' alt='' />
-                <p className=''>Monday - Thursday</p>
-              </div>
-              <p className=''>08:00 - 20:00</p>
-            </div>
-            {/*  */}
-            <div className='w-full lg:w-[500px] text-[18px] text-[#777] py-3 flex justify-between'>
-              <div className='flex space-x-5 items-center'>
-                <img src='/img/clock-green.png' className='w-5' alt='' />
-                <p className=''>Friday</p>
-              </div>
-              <p className=''>09:00 - 19:00</p>
-            </div>
-            {/*  */}
-            <div className='w-full lg:w-[500px] text-[18px] text-[#777] py-3 flex justify-between'>
-              <div className='flex space-x-5 items-center'>
-                <img src='/img/clock-green.png' className='w-5' alt='' />
-                <p className=''>Saturday - Thursday</p>
-              </div>
-              <p className=''>09:00 - 18:00</p>
-            </div>
-            {/*  */}
-            <div className='w-full lg:w-[500px] text-[18px] text-[#777] py-3 flex justify-between'>
-              <div className='flex space-x-5 items-center'>
-                <img src='/img/clock-green.png' className='w-5' alt='' />
-                <p className=''>Sunday - Thursday</p>
-              </div>
-              <p className=''>09:00 - 18:00</p>
-            </div>
-          </div>
         </div>
       </div>
     </div>

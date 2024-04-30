@@ -1,4 +1,5 @@
 import Specialities from "@/components/academic wings/academic programs/Specialities";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import { MegaMenuWithHover } from "@/components/Navbar";
 
@@ -17,6 +18,7 @@ function AcademicPrograms() {
       <MegaMenuWithHover />
       <Hero imgSrcData={imgSrcData} />
       <Specialities />
+      <Footer />
     </div>
   )
 }
