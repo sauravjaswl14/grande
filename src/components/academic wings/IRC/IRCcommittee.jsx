@@ -34,7 +34,10 @@ function Members() {
           {membersData.map((data) => {
             let { img, nameOfDoctor } = data;
             return (
-              <div className='group w-[262px] flex flex-col hover:cursor-pointer'>
+              <div
+                key={nameOfDoctor}
+                className='group w-[262px] flex flex-col hover:cursor-pointer'
+              >
                 <Image src={img} width={262} height={262} />
                 <div className='w-full bg-white p-5 rounded-md flex flex-col space-y-3 items-center group-hover:-translate-y-5 transition ease-in-out duration-200'>
                   <p className='text-center'>{nameOfDoctor}</p>

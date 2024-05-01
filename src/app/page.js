@@ -11,7 +11,7 @@ import News from "@/components/News";
 import AdvertiseSectionBreaker from "@/components/AdvertiseSectionBreaker";
 import UniqueServices from "@/components/UniqueServices";
 import ParallaxSection from "@/components/ParallaxSection";
-import { FeaturedImageGallery } from "@/components/ImageGallery"
+import { FeaturedImageGallery } from "@/components/HomeImageGallery"
 import Footer from "@/components/Footer";
 import TestimonialList from "@/components/TestimonialList";
 import records from "../data/testimonials"

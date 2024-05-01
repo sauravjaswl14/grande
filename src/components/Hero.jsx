@@ -22,9 +22,9 @@ const Hero = ({ imgSrcData }) => {
   return (
     <div className='relative'>
       <Carousel autoplay>
-        {imgSrcData.map((imgSrc) => {
+        {imgSrcData.map((imgSrc, idx) => {
           return (
-            <div>
+            <div key={idx}>
               <Image
                 src={imgSrc}
                 width={1920}

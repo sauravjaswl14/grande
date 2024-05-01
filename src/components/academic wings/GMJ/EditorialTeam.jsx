@@ -51,7 +51,10 @@ function EditorialTeam() {
         {editorialTeam.map((data) => {
           let { designation, members } = data;
           return (
-            <div className='bg-white shadow-md flex flex-col rounded-b-md'>
+            <div
+              key={designation}
+              className='bg-white shadow-md flex flex-col rounded-b-md'
+            >
               <div className='bg-[#238751] p-3 flex justify-center items-center'>
                 <p className='text-white font-semibold text-[18px]'>
                   {designation}

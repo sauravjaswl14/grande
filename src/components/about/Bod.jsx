@@ -18,7 +18,10 @@ function BoardOfDirectors() {
         {bod.map((bodMember) => {
           let { name, designation } = bodMember;
           return (
-            <div className='w-full lg:w-[400px] flex flex-col rounded-b-lg shadow-md'>
+            <div
+              key={bodMember}
+              className='w-full lg:w-[400px] flex flex-col rounded-b-lg shadow-md'
+            >
               <div className='w-full py-3 flex justify-center items-center bg-[#238751] text-white'>
                 <p className='text-xl font-bold capitalize'>{designation}</p>
               </div>

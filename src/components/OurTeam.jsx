@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const doctors = [
   {
-    imageOfDoctor: '/img/images/Dr.-Utkarsa-Karki.png',
+    imageOfDoctor: '/img/images/Dr.-Utkarsa-Karki.jpg',
     doctorName: 'Dr. Utkarsha Karki',
     department: ' Child, Adolescent and Adult Psychiatry',
   },
