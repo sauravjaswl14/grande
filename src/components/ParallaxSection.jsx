@@ -2,7 +2,7 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 
 function ParallaxSection() {
   const background = {
-    image: '/img/images/grande-mainview-2-scaled-1.jpeg',
+    image: '/img/images/grande-mainview-2-scaled-1.jpg',
     translateY: [0, 50],
     opacity: [1, 0.3],
     scale: [1.05, 1, 'easeOutCubic'],

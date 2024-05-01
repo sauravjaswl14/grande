@@ -30,6 +30,7 @@ const Hero = ({ imgSrcData }) => {
                 width={1920}
                 height={460}
                 style={contentStyle}
+                alt='hero images'
               />
             </div>
           );

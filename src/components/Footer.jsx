@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 function Footer() {
   return (
     <footer className='z-30 mt-20 bg-[#184861] text-white p-5 lg:py-10 lg:px-20'>
@@ -5,7 +7,12 @@ function Footer() {
         {/* <!--  --> */}
         <div className='flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-20'>
           <div className='w-[140px] h-[52.16px]'>
-            <img src='/img/logo-white.png' className='w-full h-full' alt='' />
+            <Image
+              src='/img/logo-white.png'
+              width={140}
+              height={52.16}
+              alt='grande white logo'
+            />
           </div>
 
           <div className='flex flex-col space-y-5'>

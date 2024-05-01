@@ -544,7 +544,7 @@ function NavList() {
     <List className='mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row space-x-[2px] items-center lg:p-1'>
       <Link href='/'>
         <ListItem className='flex items-center text-[#238751] xl:gap-2 py-2 '>
-          <Image src='/img/home.png' width={20} height={30} />
+          <Image src='/img/home.png' width={20} height={30} alt='home icon' />
         </ListItem>
       </Link>
 
@@ -574,15 +574,32 @@ export function MegaMenuWithHover() {
     <Navbar className='sticky top-0 shadow-xl w-screen text-[10px] xl:px-10 xl:py-5 z-50'>
       <div className='flex items-center justify-between text-blue-gray-900'>
         <Link href='/'>
-          <Image src='/img/logo.png' width={140} height={52.16} />
+          <Image
+            src='/img/logo.png'
+            width={140}
+            height={52.16}
+            alt='grande-logo'
+          />
         </Link>
         <div className='hidden lg:block'>
           <NavList />
         </div>
 
         <div className='hidden 2xl:flex 2xl:space-x-1 xl:items-center'>
-          <Image src='/img/nabh.png' width={50} height={60} className='' />
-          <Image src='/img/hoty.png' width={60} height={60} className='' />
+          <Image
+            src='/img/nabh.png'
+            width={50}
+            height={60}
+            className=''
+            alt='nabh'
+          />
+          <Image
+            src='/img/hoty.png'
+            width={60}
+            height={60}
+            className=''
+            alt='hospitalOfTheYear'
+          />
         </div>
 
         <IconButton

@@ -58,8 +58,12 @@ export function Doctor({ img, doctorName, department, extra }) {
             {doctorName}
           </h3>
           {extra &&
-            extra.map((desc) => {
-              return <p className='text-[14px]'>{desc}</p>;
+            extra.map((desc, key) => {
+              return (
+                <p key={key} className='text-[14px]'>
+                  {desc}
+                </p>
+              );
             })}
           <p className='text-[#238751] font-semibold text-center text-[14px]'>
             {department}
@@ -99,7 +103,7 @@ function OurTeam() {
         <div className='flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-10'>
           {doctors.map((doctor) => {
             return (
-              <div key={doctor}>
+              <div key={doctor.doctorName}>
                 <Doctor
                   img={doctor.imageOfDoctor}
                   doctorName={doctor.doctorName}

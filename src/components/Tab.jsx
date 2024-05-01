@@ -103,7 +103,12 @@ function Tab() {
           className={`w-[178px] h-[146px] bg-white hover:-translate-y-5 hover:border-b-4 hover:border-[#184861] transition duration-200 ease-in-out rounded-lg shadow-xl flex justify-center items-center py-[10px] px-[25px] rounded-l-xl hover:cursor-pointer`}
         >
           <div className='flex flex-col space-y-5 items-center'>
-            <Image src='/img/book-appointment.png' width={40} height={40} />
+            <Image
+              src='/img/book-appointment.png'
+              width={40}
+              height={40}
+              alt='book appointment'
+            />
 
             <p className='text-[#184861] font-semibold text-[13px]'>
               Book Appointment
@@ -116,7 +121,12 @@ function Tab() {
           className={`w-[178px] h-[146px] bg-white hover:-translate-y-5 hover:border-b-4 hover:border-[#184861] transition duration-200 ease-in-out rounded-lg shadow-xl flex justify-center items-center py-[10px] px-[25px]  hover:cursor-pointer`}
         >
           <div className='flex flex-col space-y-5 items-center'>
-            <Image src='/img/findADoctor.png' width={40} height={40} />
+            <Image
+              src='/img/findADoctor.png'
+              width={40}
+              height={40}
+              alt='find a doctor'
+            />
 
             <p className='text-[#184861] font-bold text-[13px]'>
               Find a Doctor
@@ -129,7 +139,12 @@ function Tab() {
           className={`w-[178px] h-[146px] bg-white hover:-translate-y-5 hover:border-b-4 hover:border-[#184861] transition duration-200 ease-in-out rounded-lg shadow-xl flex justify-center items-center py-[10px] px-[25px]  hover:cursor-pointer `}
         >
           <div className='flex flex-col space-y-5 items-center'>
-            <Image src='/img/emergency-room.png' width={40} height={40} />
+            <Image
+              src='/img/emergency-room.png'
+              width={40}
+              height={40}
+              alt='emergency'
+            />
 
             <p className='text-[#184861] font-bold text-[13px]'>Emergency</p>
           </div>
@@ -140,7 +155,12 @@ function Tab() {
           className={`w-[178px] h-[146px] bg-white hover:-translate-y-5 hover:border-b-4 hover:border-[#184861] transition duration-200 ease-in-out rounded-lg shadow-xl flex justify-center items-center py-[10px] px-[25px]  hover:cursor-pointer  `}
         >
           <div className='flex flex-col space-y-5 items-center'>
-            <Image src='/img/medical-checkup.png' width={40} height={40} />
+            <Image
+              src='/img/medical-checkup.png'
+              width={40}
+              height={40}
+              alt='medical checkup'
+            />
 
             <p className='capitalize text-[#184861] text-center font-bold text-[13px]'>
               Book a virtual consultation
@@ -153,7 +173,12 @@ function Tab() {
           className={`w-[178px] h-[146px] bg-white hover:-translate-y-5 hover:border-b-4 hover:border-[#184861] transition duration-200 ease-in-out rounded-lg shadow-xl flex justify-center items-center py-[10px] px-[25px]  hover:cursor-pointer  `}
         >
           <div className='flex flex-col space-y-5 items-center'>
-            <Image src='/img/hospitalAthome.png' width={40} height={40} />
+            <Image
+              src='/img/hospitalAthome.png'
+              width={40}
+              height={40}
+              alt='hospital at home'
+            />
 
             <p className='capitalize text-[#184861]  font-bold text-[13px]'>
               Grande @ Home
@@ -166,7 +191,12 @@ function Tab() {
           className={`w-[178px] h-[146px] bg-white hover:-translate-y-5 hover:border-b-4 hover:border-[#184861] transition duration-200 ease-in-out rounded-lg shadow-xl flex justify-center items-center py-[10px] px-[25px] rounded-r-xl hover:cursor-pointer `}
         >
           <div className='flex flex-col space-y-5 items-center'>
-            <Image src='/img/blood-test.png' width={40} height={40} />
+            <Image
+              src='/img/blood-test.png'
+              width={40}
+              height={40}
+              alt='blood test'
+            />
 
             <p className=' text-[#184861]  font-bold text-[13px]'>
               Book a Test
