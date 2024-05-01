@@ -52,7 +52,7 @@ function EditorialTeam() {
           let { designation, members } = data;
           return (
             <div
-              key={idx}
+              key={designation}
               className='bg-white shadow-md flex flex-col rounded-b-md'
             >
               <div className='bg-[#238751] p-3 flex justify-center items-center'>
