@@ -48,11 +48,11 @@ function EditorialTeam() {
       </h2>
 
       <div className='mt-8 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-        {editorialTeam.map((data) => {
+        {editorialTeam.map((data, idx) => {
           let { designation, members } = data;
           return (
             <div
-              key={designation}
+              key={idx}
               className='bg-white shadow-md flex flex-col rounded-b-md'
             >
               <div className='bg-[#238751] p-3 flex justify-center items-center'>
