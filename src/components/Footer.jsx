@@ -37,7 +37,7 @@ function Footer() {
           </div>
 
           <div className='flex flex-col space-y-5'>
-            <h4 className='text-[18px] uppercase font-bold'>Quick links</h4>
+            <h4 className='text-[18px] uppercase font-bold'>Enquiry</h4>
             <form className='flex flex-col space-y-2'>
               <input
                 type='text'

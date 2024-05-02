@@ -19,6 +19,7 @@ import AppointmentSection from "@/components/AppointmentSection";
 import Tab from "@/components/Tab";
 import Image from "next/image";
 import ModalDisplay from "@/components/modal/Modal";
+import Toaster from "@/components/Toaster/ToastContainer";
 
 export default function Home() {
 
@@ -40,6 +41,7 @@ export default function Home() {
       <Tab />
       <UniqueServices />
       <ModalDisplay />
+      <Toaster />
       {/* <Appointment /> */}
       <MajorServices />
       <Specialities />
