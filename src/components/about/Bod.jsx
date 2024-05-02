@@ -13,7 +13,7 @@ const bod = [
 
 function BoardOfDirectors() {
   return (
-    <div className='m-20 flex flex-col-reverse space-y-5 lg:space-y-0 lg:flex-row lg:space-x-10 lg:items-center'>
+    <div className='w-full m-5 lg:m-20  flex flex-col-reverse space-y-5 lg:space-y-0 lg:flex-row lg:space-x-28 lg:items-center'>
       <div className='grid grid-cols-2 gap-6'>
         {bod.map((bodMember) => {
           let { name, designation } = bodMember;
@@ -34,8 +34,8 @@ function BoardOfDirectors() {
       </div>
       <Image
         src='/img/bod.jpg'
-        width={612}
-        height={304}
+        width={512}
+        height={204}
         className='rounded-md'
       />
     </div>
