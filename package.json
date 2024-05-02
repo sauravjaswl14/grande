@@ -17,6 +17,7 @@
     "primereact": "^10.6.3",
     "react": "^18",
     "react-dom": "^18",
+    "react-draggable": "^4.4.6",
     "react-multi-carousel": "^2.8.5",
     "react-scroll-parallax": "^3.4.5",
     "react-slick": "^0.30.2"

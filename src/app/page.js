@@ -18,6 +18,7 @@ import records from "../data/testimonials"
 import AppointmentSection from "@/components/AppointmentSection";
 import Tab from "@/components/Tab";
 import Image from "next/image";
+import ModalDisplay from "@/components/modal/Modal";
 
 export default function Home() {
 
@@ -38,6 +39,7 @@ export default function Home() {
       <Hero imgSrcData={imgSrcData} />
       <Tab />
       <UniqueServices />
+      <ModalDisplay />
       {/* <Appointment /> */}
       <MajorServices />
       <Specialities />
