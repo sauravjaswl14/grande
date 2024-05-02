@@ -7,7 +7,7 @@ import React from 'react';
 function AboutImage() {
   const data = [
     {
-      imgelink: '/img/images/grande-mainview-2-scaled-1.jpeg',
+      imgelink: '/img/images/grande-mainview-2-scaled-1.jpg',
     },
     {
       imgelink: '/img/images/Heli.jpg',
@@ -24,7 +24,7 @@ function AboutImage() {
   ];
 
   const [active, setActive] = React.useState(
-    '/img/images/grande-mainview-2-scaled-1.jpeg'
+    '/img/images/grande-mainview-2-scaled-1.jpg'
   );
 
   return (

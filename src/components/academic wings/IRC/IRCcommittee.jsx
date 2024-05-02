@@ -2,23 +2,23 @@ import Image from 'next/image';
 
 let membersData = [
   {
-    img: '/img/images/Dr.-Byapak-Paudel.png',
+    img: '/img/images/Dr.-Byapak-Paudel.jpg',
     nameOfDoctor: 'Dr. Byapak Paudel',
   },
   {
-    img: '/img/images/Dr.-Rupendra-Bahadur-Adhikari.png',
+    img: '/img/images/Dr.-Rupendra-Bahadur-Adhikari.jpg',
     nameOfDoctor: 'Dr. Rupendra Bahadur Adhikari',
   },
   {
-    img: '/img/images/Assoc.-Prof.-Dr.-Akhilesh-Kumar-Kasyap.png',
+    img: '/img/images/Assoc.-Prof.-Dr.-Akhilesh-Kumar-Kasyap.jpg',
     nameOfDoctor: 'Dr. Akhilesh Kumar Kasyap',
   },
   {
-    img: '/img/images/LD-maharjan.png',
+    img: '/img/images/LD-maharjan.jpg',
     nameOfDoctor: 'Dr. L D Maharjan',
   },
   {
-    img: '/img/images/Dr.-Nilam-Subedi.png',
+    img: '/img/images/Dr.-Nilam-Subedi.jpg',
     nameOfDoctor: 'Dr. Nilam Subedi',
   },
 ];
