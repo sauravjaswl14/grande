@@ -14,6 +14,12 @@ body {
   overflow-x: hidden;
 }
 
+.noScrollbar::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* make scrollbar transparent */
+}
+
 .appointment {
   background: url(../../public/img/appointment-bg.png);
 }

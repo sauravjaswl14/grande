@@ -72,7 +72,7 @@ function Department() {
         </Link>
       </div>
 
-      <div className='h-[500px] flex flex-col space-y-5 overflow-y-auto no-scrollbar'>
+      <div className='h-[500px] flex flex-col space-y-5 overflow-y-auto noScrollbar'>
         {departmentData.map((department) => {
           const { img, category, departmentName, departmentIcon, description } =
             department;
