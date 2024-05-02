@@ -7,25 +7,25 @@ import Image from 'next/image';
 
 function WardsAndRooms() {
   let rooms = [
-    { img: '/img/images/bed1.png', name: 'name1' },
+    { img: '/img/images/bed1.jpg', name: 'name1' },
     { img: '/img/images/bed2.jpg', name: 'name2' },
-    { img: '/img/images/bed3.png', name: 'name3' },
-    { img: '/img/images/bed4.png', name: 'name4' },
-    { img: '/img/images/bed5.png', name: 'name5' },
+    { img: '/img/images/bed3.jpg', name: 'name3' },
+    { img: '/img/images/bed4.jpg', name: 'name4' },
+    { img: '/img/images/bed5.jpg', name: 'name5' },
   ];
 
   let generalRooms = [
-    { img: '/img/images/bed6.png', name: 'name6' },
-    { img: '/img/images/bed11.png', name: 'name11' },
-    { img: '/img/images/bed8.png', name: 'name8' },
-    { img: '/img/images/bed9.png', name: 'name9' },
-    { img: '/img/images/bed10.png', name: 'name10' },
+    { img: '/img/images/bed6.jpg', name: 'name6' },
+    { img: '/img/images/bed11.jpg', name: 'name11' },
+    { img: '/img/images/bed8.jpg', name: 'name8' },
+    { img: '/img/images/bed9.jpg', name: 'name9' },
+    { img: '/img/images/bed10.jpg', name: 'name10' },
   ];
 
   let cabin = [
-    { img: '/img/images/bed1.png', name: 'name1' },
+    { img: '/img/images/bed1.jpg', name: 'name1' },
     { img: '/img/images/bed2.jpg', name: 'name2' },
-    { img: '/img/images/premium-bed3.png', name: 'name3' },
+    { img: '/img/images/premium-bed3.jpg', name: 'name3' },
     { img: '/img/images/cabin-1.jpg', name: 'cabin1' },
     { img: '/img/images/cabin-2.jpg', name: 'cabin2' },
     { img: '/img/images/cabin-3.jpg', name: 'cabin3' },
@@ -34,14 +34,14 @@ function WardsAndRooms() {
 
   let singleCabin = [
     { img: '/img/images/singleCabin1.jpg' },
-    { img: '/img/images/singleCabin2.png' },
+    { img: '/img/images/singleCabin2.jpg' },
     { img: '/img/images/cabin-1.jpg' },
   ];
 
   let privateCabin = [
     { img: '/img/images/privateCabin.jpg' },
     { img: '/img/images/privateCabin2.jpg' },
-    { img: '/img/images/privateCabin3.png' },
+    { img: '/img/images/privateCabin3.jpg' },
   ];
 
   let deluxe = [
@@ -49,15 +49,15 @@ function WardsAndRooms() {
     { img: '/img/images/deluxe2.jpg' },
     { img: '/img/images/deluxe4.jpg' },
     { img: '/img/images/deluxe5.jpg' },
-    { img: '/img/images/deluxe6.png' },
+    { img: '/img/images/deluxe6.jpg' },
   ];
 
   let suite = [
-    { img: '/img/images/suite1.png' },
+    { img: '/img/images/suite1.jpg' },
     { img: '/img/images/suite2.jpg' },
     { img: '/img/images/suite3.jpg' },
-    { img: '/img/images/suite4.png' },
-    { img: '/img/images/suite5.png' },
+    { img: '/img/images/suite4.jpg' },
+    { img: '/img/images/suite5.jpg' },
   ];
 
   let twin = [
@@ -136,13 +136,13 @@ function WardsAndRooms() {
         <div className='flex flex-col space-y-3'>
           <div className='flex space-x-3'>
             <Image
-              src='/img/images/premium-bed1.png'
+              src='/img/images/premium-bed1.jpg'
               width={300}
               height={150}
               alt='bed'
             />
             <Image
-              src='/img/images/premiumWard.png'
+              src='/img/images/premiumWard.jpg'
               width={300}
               height={150}
               alt='bed'
@@ -150,13 +150,13 @@ function WardsAndRooms() {
           </div>
           <div className='flex space-x-3'>
             <Image
-              src='/img/images/premium-singleBed2.png'
+              src='/img/images/premium-singleBed2.jpg'
               width={300}
               height={150}
               alt='bed'
             />
             <Image
-              src='/img/images/premium-bed3.png'
+              src='/img/images/premium-bed3.jpg'
               width={300}
               height={150}
               alt='bed'
