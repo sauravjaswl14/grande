@@ -61,8 +61,12 @@ function EditorialTeam() {
                 </p>
               </div>
               <div className='m-10 flex flex-col space-y-5 justify-center items-center'>
-                {members.map((member) => {
-                  return <p className='text-center'>{member}</p>;
+                {members.map((member, key) => {
+                  return (
+                    <p key={key} className='text-center'>
+                      {member}
+                    </p>
+                  );
                 })}
               </div>
             </div>
