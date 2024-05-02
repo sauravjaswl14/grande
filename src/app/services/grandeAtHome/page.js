@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer"
 import { MegaMenuWithHover } from "@/components/Navbar"
 import GrandeAtHomeSection from "@/components/services/GrandeAtHome"
 import Link from "next/link"
@@ -18,6 +19,7 @@ function GrandeAtHome() {
       <MegaMenuWithHover />
       <Banner />
       <GrandeAtHomeSection />
+      <Footer />
     </div>
   )
 }

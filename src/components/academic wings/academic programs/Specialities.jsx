@@ -56,7 +56,7 @@ function Specialities() {
 
         {/* Dr.-Ramkrishna-Dahal.jpeg */}
         <Doctor
-          img='/img/images/Dr.-Ramkrishna-Dahal.jpeg'
+          img='/img/images/Dr.-Ramkrishna-Dahal.jpg'
           doctorName='Dr. Ramkrishna Dahal'
           department='Fellowship in Spine Reconstructive Surgery'
           extra={['Academic Co-ordinator', 'MS Orthopedics']}

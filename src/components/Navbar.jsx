@@ -490,7 +490,7 @@ function NavListMenu() {
         International Patient
       </Link>
       <Link
-        href='#'
+        href='/career'
         className='flex text-[14px] text-[#111827]  font-medium items-center xl:gap-2  pr-4'
       >
         Career

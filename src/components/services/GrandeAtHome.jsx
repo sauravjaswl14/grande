@@ -108,7 +108,7 @@ function GrandeAtHomeSection() {
                 alt='grande at Home Image'
               />
               <Image
-                src='/img/images/csr-N1-min-1024x682.png'
+                src='/img/images/csr-N1-min-1024x682.jpg'
                 width={400}
                 height={200}
                 alt='grande at Home Image'
@@ -135,12 +135,3 @@ function GrandeAtHomeSection() {
   );
 }
 export default GrandeAtHomeSection;
-
-/**
- * 
- * 
- * 
- *   {
-                  ' public public'
-                }
- */
