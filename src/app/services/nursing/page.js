@@ -1,4 +1,6 @@
+import Footer from "@/components/Footer"
 import { MegaMenuWithHover } from "@/components/Navbar"
+import NursingSection from "@/components/services/Nursing"
 import Link from "next/link"
 
 function Banner() {
@@ -16,6 +18,8 @@ function Nursing() {
     <div>
       <MegaMenuWithHover />
       <Banner />
+      <NursingSection />
+      <Footer />
     </div>
   )
 }

@@ -53,19 +53,7 @@ function Tab() {
           };
         });
         break;
-      case 'virtualConsultation':
-        setActive((prev) => {
-          return {
-            ...prev,
-            bookAppointment: false,
-            findADoctor: false,
-            emergency: false,
-            virtualConsultation: !prev.virtualConsultation,
-            grandeAtHome: false,
-            bookATest: false,
-          };
-        });
-        break;
+
       case 'grandeAtHome':
         setActive((prev) => {
           return {
@@ -149,24 +137,7 @@ function Tab() {
             <p className='text-[#184861] font-bold text-[13px]'>Emergency</p>
           </div>
         </div>
-        {/*  */}
-        <div
-          // onClick={() => activeTab('virtualConsultation')}
-          className={`w-[178px] h-[146px] bg-white hover:-translate-y-5 hover:border-b-4 hover:border-[#184861] transition duration-200 ease-in-out rounded-lg shadow-xl flex justify-center items-center py-[10px] px-[25px]  hover:cursor-pointer  `}
-        >
-          <div className='flex flex-col space-y-5 items-center'>
-            <Image
-              src='/img/medical-checkup.png'
-              width={40}
-              height={40}
-              alt='medical checkup'
-            />
 
-            <p className='capitalize text-[#184861] text-center font-bold text-[13px]'>
-              Book a virtual consultation
-            </p>
-          </div>
-        </div>
         {/*  */}
         <div
           // onClick={() => activeTab('grandeAtHome')}
@@ -198,8 +169,8 @@ function Tab() {
               alt='blood test'
             />
 
-            <p className=' text-[#184861]  font-bold text-[13px]'>
-              Book a Test
+            <p className=' text-[#184861] text-center font-bold text-[13px]'>
+              Lab report Download
             </p>
           </div>
         </div>
