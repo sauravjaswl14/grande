@@ -33,7 +33,7 @@ function PricingSection() {
             <h4 className='text-sm font-normal'>Urine Routine</h4>
             <h4 className='text-sm font-normal'>Chest X-Ray</h4>
             <h4 className='text-sm font-normal'>ECG</h4>
-            <h4 className='text-sm font-normal'>Doctor's Consultation</h4>
+            <h4 className='text-sm font-normal'>Doctor&apos;s Consultation</h4>
             <h4 className='text-sm font-normal pt-7'>
               Get report within ...hours
             </h4>
