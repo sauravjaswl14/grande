@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 function Tab() {
   let [isActive, setActive] = useState({
@@ -104,7 +105,8 @@ function Tab() {
           </div>
         </div>
         {/*  */}
-        <div
+        <Link
+          href='/findADoctor'
           // onClick={() => activeTab('findADoctor')}
           className={`w-[178px] h-[146px] bg-white hover:-translate-y-5 hover:border-b-4 hover:border-[#184861] transition duration-200 ease-in-out rounded-lg shadow-xl flex justify-center items-center py-[10px] px-[25px]  hover:cursor-pointer`}
         >
@@ -120,7 +122,7 @@ function Tab() {
               Find a Doctor
             </p>
           </div>
-        </div>
+        </Link>
         {/*  */}
         <div
           // onClick={() => activeTab('emergency')}
