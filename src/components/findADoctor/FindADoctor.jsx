@@ -13,7 +13,7 @@ function FindADoctorSection() {
   return (
     <div className='m-20'>
       <div className='grid grid-cols-2 gap-6'>
-        {doctors.map((doctor, key) => {
+        {doctors.map((doctor) => {
           let {
             img,
             nameOfDoctor,
@@ -23,7 +23,10 @@ function FindADoctorSection() {
             education,
           } = doctor;
           return (
-            <div key={key} className='w-[584px] bg-white rounded-lg p-10'>
+            <div
+              key={nameOfDoctor}
+              className='w-[584px] bg-white rounded-lg p-10'
+            >
               <div className='flex flex-col'>
                 <div className='flex space-x-5 pb-6 border-b-2'>
                   <Image

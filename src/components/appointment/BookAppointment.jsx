@@ -11,6 +11,7 @@ function BookAppointment() {
             let { img, nameOfDepartment, link } = department;
             return (
               <Link
+                key={nameOfDepartment}
                 href={link}
                 className='w-full bg-white p-6 rounded-md flex space-x-8 items-center hover:shadow-lg hover:cursor-pointer hover:-translate-y-2 transition ease-in-out duration-200'
               >
