@@ -87,7 +87,8 @@ function Tab() {
     <nav className='my-10 w-full hidden lg:flex lg:justify-center'>
       <div className='flex space-x-5 items-center'>
         {/*  */}
-        <div
+        <Link
+          href='/appointment'
           // onClick={() => activeTab('bookAppointment')}
           className={`w-[178px] h-[146px] bg-white hover:-translate-y-5 hover:border-b-4 hover:border-[#184861] transition duration-200 ease-in-out rounded-lg shadow-xl flex justify-center items-center py-[10px] px-[25px] rounded-l-xl hover:cursor-pointer`}
         >
@@ -103,7 +104,7 @@ function Tab() {
               Book Appointment
             </p>
           </div>
-        </div>
+        </Link>
         {/*  */}
         <Link
           href='/findADoctor'
@@ -141,7 +142,8 @@ function Tab() {
         </div>
 
         {/*  */}
-        <div
+        <Link
+          href='/grandeAtHome'
           // onClick={() => activeTab('grandeAtHome')}
           className={`w-[178px] h-[146px] bg-white hover:-translate-y-5 hover:border-b-4 hover:border-[#184861] transition duration-200 ease-in-out rounded-lg shadow-xl flex justify-center items-center py-[10px] px-[25px]  hover:cursor-pointer  `}
         >
@@ -157,7 +159,7 @@ function Tab() {
               Grande @ Home
             </p>
           </div>
-        </div>
+        </Link>
         {/*  */}
         <div
           // onClick={() => activeTab('bookATest')}
