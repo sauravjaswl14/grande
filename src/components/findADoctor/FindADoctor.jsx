@@ -100,7 +100,10 @@ function FindADoctorSection() {
                       <div className='flex flex-col space-y-2'>
                         {education.map((e, key) => {
                           return (
-                            <div className='flex space-x-3 items-center'>
+                            <div
+                              key={key}
+                              className='flex space-x-3 items-center'
+                            >
                               <Image
                                 src='/img/point.png'
                                 width={20}
