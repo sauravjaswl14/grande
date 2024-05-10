@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Button, Modal } from 'antd';
 import Draggable from 'react-draggable';
+import Image from 'next/image';
 const ModalDisplay = () => {
   const [open, setOpen] = useState(false);
   const [disabled, setDisabled] = useState(true);
@@ -63,9 +64,7 @@ const ModalDisplay = () => {
             onFocus={() => {}}
             onBlur={() => {}}
             // end
-          >
-            Draggable Modal
-          </div>
+          ></div>
         }
         open={open}
         onOk={handleOk}
@@ -81,15 +80,7 @@ const ModalDisplay = () => {
           </Draggable>
         )}
       >
-        <p>
-          Just don&apos;t learn physics at school and your life will be full of
-          magic and miracles.
-        </p>
-        <br />
-        <p>
-          Day before yesterday I saw a rabbit, and yesterday a deer, and today,
-          you.
-        </p>
+        <Image src='/img/images/modal.jpg' width={890} height={200} />
       </Modal>
     </>
   );
