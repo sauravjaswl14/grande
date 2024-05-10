@@ -33,6 +33,8 @@ import {
   UserGroupIcon,
 } from '@heroicons/react/24/solid';
 
+import { departments } from '@/data/departments';
+
 const navListMenuItems = [
   {
     title: 'About us',
@@ -226,6 +228,18 @@ const academicWing = [
   },
 ];
 
+let d = departments.map((department, key) => {
+  let { nameOfDepartment, link } = department;
+
+  return {
+    key,
+    title: nameOfDepartment,
+    link,
+    description: 'Find the perfect solution for your needs.',
+    icon: SquaresPlusIcon,
+  };
+});
+
 function NavListMenu() {
   const [isOverviewMenuOpen, setIsOverviewMenuOpen] = React.useState(false);
   const [isDepartmentsMenuOpen, setIsDepartmentMenuOpen] =
@@ -367,6 +381,37 @@ function NavListMenu() {
     }
   );
 
+  const departmentLists = d.map(({ icon, title, link, description }, key) => {
+    return (
+      <Link href={link} key={key}>
+        <MenuItem className='flex items-center gap-3 rounded-lg'>
+          <div className='flex items-center justify-center rounded-b-lg !bg-blue-gray-50 p-2 '>
+            {' '}
+            {React.createElement(icon, {
+              strokeWidth: 2,
+              className: 'h-6 text-gray-900 text-[14px] whitespace-nowrap w-6',
+            })}
+          </div>
+          <div>
+            <Typography
+              variant='h6'
+              color='blue-gray'
+              className='flex capitalize items-center text-sm font-bold'
+            >
+              {title}
+            </Typography>
+            <Typography
+              variant='paragraph'
+              className='text-xs !font-medium text-blue-gray-500'
+            >
+              {description}
+            </Typography>
+          </div>
+        </MenuItem>
+      </Link>
+    );
+  });
+
   return (
     <React.Fragment>
       <Menu
@@ -437,7 +482,7 @@ function NavListMenu() {
         </MenuHandler>
         <MenuList className='hidden  bg-white border-2 mt-3 ml-8  w-screen rounded-xl lg:block'>
           <ul className='grid grid-cols-3 gap-y-2 outline-none outline-0'>
-            {renderItems}
+            {departmentLists}
           </ul>
         </MenuList>
       </Menu>
@@ -484,7 +529,7 @@ function NavListMenu() {
         </MenuList>
       </Menu>
       <Link
-        href='#'
+        href='/internationalPatient'
         className='flex text-[14px] text-[#111827]  font-medium items-center xl:gap-2  pr-4'
       >
         International Patient
