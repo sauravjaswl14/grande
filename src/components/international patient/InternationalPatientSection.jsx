@@ -193,13 +193,18 @@ function InternationalPatientSection() {
       <section class='flex flex-col space-y-10 py-12 mx-auto lg:w-2/3 px-4'>
         {/* <!-- top --> */}
         <div class='max-w-[700px]'>
-          <h3 class='text-[32px] font-semibold'>Why Choose Apollo?</h3>
+          <h3 class='text-[32px] font-semibold'>Why Choose grande?</h3>
           <p class='text-[14px] leading-[1.68]'>
-            Founded in 1983, Apollo Hospitals Group is Asia&apos;s foremost
-            integrated healthcare services provider with a presence across the
-            healthcare ecosystem, including Hospitals, Pharmacies, Primary Care
-            & Diagnostic Clinics. Apollo Hospitals is dedicated to clinical
-            excellence, modern technology, academics, and research.
+            Grande International Hospital was created with the vision to fill an
+            existing void in the Nepali healthcare industry. It is dedicated to
+            the seamless delivery of quality, patient-centric healthcare which
+            means supplying everything a patient may need, from acute critical
+            care to rehabilitation to transitional care to home healthcare
+            services at an affordable cost. Our goal is to establish in this
+            country a culture of continuous improvement in healthcare not only
+            by providing excellent healthcare services but also by conducting
+            community health education seminars, outreach programs, and wellness
+            programs in several parts of Nepal.
           </p>
         </div>
         {/* <!-- bottom --> */}
@@ -238,7 +243,7 @@ function InternationalPatientSection() {
                 <h5 class='text-[#007C9D] text-[16px] font-semibold mb-1'>
                   Dr. Prathap C Reddy
                 </h5>
-                <p>Founder Chairman Apollo Hospitals Group</p>
+                <p>Founder Chairman grande Hospitals Group</p>
               </div>
             </div>
             <div class='flex justify-center sm:justify-start'>
@@ -253,7 +258,7 @@ function InternationalPatientSection() {
         <div class='flex flex-col space-y-6 max-w-[831px] mb-10'>
           <h2 class='font-semibold text-[32px] text-center'>Our Specialties</h2>
           <p class='text-[15px] font-normal'>
-            Apollo Hospitals has emerged as Asia&apos;s leading integrated
+            grande Hospitals has emerged as Asia&apos;s leading integrated
             healthcare provider and has a strong presence across the healthcare
             ecosystem, including Hospitals, Pharmacies, Primary Care &
             Diagnostic Clinics and multiple retail healthcare models.
@@ -648,10 +653,10 @@ function InternationalPatientSection() {
           {/* <!-- text --> */}
           <div class='flex flex-col space-y-8 lg:w-[30%] w-[70%]'>
             <h2 class='text-white text-[32px] font-semibold'>
-              Apollo International Patients Explainer
+              grande International Patients Explainer
             </h2>
             <p class='text-white'>
-              Apollo Hospitals is the leading multi-specialty hospitals group in
+              grande Hospitals is the leading multi-specialty hospitals group in
               India. It is also present in several countries in the Asia-pacific
               region. Over 8000 doctors provide best in class treatment at the
               groups 70+ hospitals in 27 cities.
@@ -674,7 +679,7 @@ function InternationalPatientSection() {
         {/* <!-- container --> */}
         <div class='flex flex-col space-y-14 w-[60%]'>
           <h2 class='text-[32px] font-semibold text-center'>
-            Your treatment journey at Apollo
+            Your treatment journey at grande
           </h2>
           {/* <!-- first row --> */}
           <div class='flex flex-col space-y-10 lg:flex-row lg:space-y-0 lg:space-x-20'>
@@ -702,7 +707,7 @@ function InternationalPatientSection() {
               </h2>
               <p>
                 Traveling with a medical condition can be challenging. Prior to
-                your travel, Apollo will assist you in scheduling a telemedicine
+                your travel, grande will assist you in scheduling a telemedicine
                 (video) consultation with a Doctor to thoroughly analyze your
                 medical status and conduct a detailed assessment of your present
                 health.
@@ -721,7 +726,7 @@ function InternationalPatientSection() {
               </h2>
               <p>
                 Our care goes beyond your hospital visit. Once confirming the
-                travel dates, Apollo Team will arrange all of your appointments,
+                travel dates, grande Team will arrange all of your appointments,
                 local transportation, and hotel reservation If prior tests are
                 required, then they will be scheduled as well. Let us take care
                 of your travel arrangements so you can focus on healing and
@@ -774,10 +779,10 @@ function InternationalPatientSection() {
             <img src='/img/images/row6.svg' alt='' />
             <div class='flex flex-col space-y-7'>
               <h2 class='text-[#007C9D] text-[24px] font-semibold'>
-                Apollo Travels Back With You
+                grande Travels Back With You
               </h2>
               <p>
-                Once you enter Apollo, you are a part of the Apollo Family. Post
+                Once you enter grande, you are a part of the grande Family. Post
                 treatment, our team checks to see whether you need any
                 post-operative therapy, take a note of your medication, and make
                 gentle fo
@@ -845,7 +850,7 @@ function InternationalPatientSection() {
             <div class='testimonial w-[320px] md:w-[432px] p-5 rounded-md bg-white'>
               <img src='/img/images/testimonial.jpg' alt='' />
               <p class='text-[#6C6C6C]'>
-                Apollo has touched my life, thanks to its wonderful doctors and
+                grande has touched my life, thanks to its wonderful doctors and
                 staff and Chennai is a...
               </p>
               <div class='mt-5 flex space-x-3 items-center'>

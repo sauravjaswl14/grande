@@ -76,3 +76,30 @@ body {
   background-position: right;
   background-repeat: no-repeat;
 }
+
+.main_banner {
+  background: url("../../public/img/images/hero.jpg");
+  background-size: cover;
+}
+
+.hero_banner {
+  background: url("../../public/img/images/hero_banner.png");
+  background-size: cover;
+}
+
+.card {
+  box-shadow: -3px 0px 6px #007c9d63;
+}
+
+.card_spec {
+  box-shadow: 12px 12px 24px #c0d6e2, -12px -12px 24px #f0f8ff;
+}
+
+.video_sec {
+  background: url("../../public/img/images/video_section.webp");
+  background-size: cover;
+}
+
+.testimonial {
+  box-shadow: 4px 4px 8px #c0d6e2, -4px -4px 8px #f0f8ff;
+}
