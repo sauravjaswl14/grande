@@ -5,7 +5,7 @@ function FindADoctor() {
   return (
     <div>
       <MegaMenuWithHover />
-      <FindADoctorSection />
+      {/* <FindADoctorSection /> */}
     </div>
   )
 }
