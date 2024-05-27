@@ -3,9 +3,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
-import { doctors } from '@/data/doctors';
+// import { doctors } from '@/data/doctors';
 
-function FindADoctorSection() {
+function FindADoctorSection({ doctors }) {
   let [active, setActive] = useState({
     specialization: true,
     qualification: false,

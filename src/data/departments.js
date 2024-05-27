@@ -28,11 +28,13 @@ export const departments = [
         education: ['M.B.B.S.', 'M.D. in Anesthesiology & Critical Care']
       },
     ],
+    slug: 'anesthesiology',
     link: '/departments/anesthesiology'
   },
   {
     img: '/img/departments/cardiacSurgery.png',
     nameOfDepartment: 'Cardiac Surgery',
+    slug: 'cardiac-surgery',
     listOfDoctors: [
       {
         nameOfDoctor: 'Dr. Navin Chandra Gautam',
@@ -64,6 +66,7 @@ export const departments = [
   {
     img: '/img/departments/cardiology.png',
     nameOfDepartment: 'Cardiology and Interventional Cardiology',
+    slug: 'cardiology-and-interventional-cardiology',
     listOfDoctors: [
       {
         nameOfDoctor: 'Dr. Milan Prakash Shrestha',
@@ -139,6 +142,7 @@ export const departments = [
   {
     img: '/img/departments/cardiothoracic.png',
     nameOfDepartment: 'Cardiothoracic and Vascular Surgery',
+    slug: 'cardiothoracic-and-vascular-surgery',
     listOfDoctors: [
       {
         nameOfDoctor: 'Pro. Dr. Uttam Krishna Shrestha',
@@ -171,6 +175,7 @@ export const departments = [
   {
     img: '/img/departments/psychiatry.png',
     nameOfDepartment: 'Child, Adolescent and Adult Psychiatry',
+    slug: 'child-adolescent-and-adult-Psychiatry',
     listOfDoctors: [
       {
         nameOfDoctor: 'Dr. Utkarsh Karki',
