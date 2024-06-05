@@ -1,12 +1,13 @@
-import FindADoctorSection from "@/components/findADoctor/FindADoctor"
-import { MegaMenuWithHover } from "@/components/Navbar"
+
+import SearchDoctors from "@/components/findADoctor/SearchDoctors";
+import { MegaMenuWithHover } from "@/components/Navbar";
 
 function FindADoctor() {
   return (
     <div>
       <MegaMenuWithHover />
-      {/* <FindADoctorSection /> */}
+      <SearchDoctors />
     </div>
-  )
+  );
 }
-export default FindADoctor
+export default FindADoctor;

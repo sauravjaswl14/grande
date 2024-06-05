@@ -1,22 +1,19 @@
-import FindADoctorSection from "@/components/findADoctor/FindADoctor"
-import { departments } from "@/data/departments"
+import FindADoctorSection from "@/components/findADoctor/appointment/FindADoctor";
+import { getDoctors } from "../../../../lib/departments";
 
-function DepartmentDoctorsList({ params }) {
-  let departmentSlug = params.departmentSlug
+async function DepartmentDoctorsList({ params }) {
+  let res = await getDoctors();
 
-  let filteredDepartment = departments.filter((department) => {
-    return department.slug === departmentSlug
-  })
+  let doctorsList = res.data.data;
 
-  let [department] = filteredDepartment
-
-  let { listOfDoctors } = department
-
+  let filteredDoctors = doctorsList.filter((doc) => {
+    return doc.department.slug === params.departmentSlug;
+  });
 
   return (
-    <div>
-      <FindADoctorSection doctors={listOfDoctors} />
+    <div className="m-20">
+      <FindADoctorSection doctors={filteredDoctors} />
     </div>
-  )
+  );
 }
-export default DepartmentDoctorsList
+export default DepartmentDoctorsList;
